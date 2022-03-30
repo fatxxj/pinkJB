@@ -1,4 +1,7 @@
-﻿@{
+﻿using System.Web.HttpUtility.UrlEncode("c# objects");
+
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -19,6 +22,39 @@
     </div>
      
 </div>
+
+
+<div class="row">
+    <div class="col-md-12"> 
+        <br />
+
+        <p class="text-justify text-center customFont" style="font-size: 21px">
+            Pink JB is located physically with a store in Tetovo and online anywhere.
+            For buying our custom pyjamas you can visit us physical in out store in this 
+            <a href=@Html.Raw("https://www.google.com/maps/dir//Strasho+Pindjur+Road,+Tetovo/@42.0024899,20.9700936,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1353f0e8fb3e2b8d:0xc45a275c3d4fe35!2m2!1d20.9712306!2d42.0121369"))
+            >Address which is on Strasho Pinzhur 1200 Tetovo.</a> <br/>
+            You can access on our social media by clicking on the below icons on instagram and facebook. Online orders are made through direct messages on facebook and instragram or by buying online on this web page. 
+        </p><br />
+        
+        
+        <br />
+
+    </div>
+    
+    <div class="row text-center">
+        <div class="col-md-12">
+            <a href="https://www.facebook.com/profile.php?id=100062858287677">            <img src="/facebook.png" class="rounded float-start" alt="" style="width: 80px; height: 80px; margin-right: 20px;">
+            </a>
+            <a href="https://www.instagram.com/pinkjb_/?hl=en">            <img src="/instagram.png" class="rounded float-start" alt="" style="width: 80px; height: 80px; margin-right: 20px;">
+            </a>
+
+            <br/><br/><br/>
+        </div>
+    </div>
+
+</div>
+
+
 <div class="row">
     <div class="col-md-12 text-center">
                 <a class="btn btn-primary btn-lg"   asp-action="Store">Go to store &raquo;</a>

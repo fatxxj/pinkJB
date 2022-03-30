@@ -36,7 +36,9 @@ namespace pinkJB_core
 
             services.AddScoped<IProductsService, ProductService>();
 
-
+            services
+                .AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
 
 
         }

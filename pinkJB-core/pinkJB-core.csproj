@@ -27,6 +27,13 @@
   <ItemGroup>
     <Folder Include="Base\" />
     <Folder Include="Data\ViewModels\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\facebook.png" />
+    <None Include="wwwroot\instagram.png" />
+    <None Include="wwwroot\telephone-call.png" />
   </ItemGroup>
 
 </Project>
