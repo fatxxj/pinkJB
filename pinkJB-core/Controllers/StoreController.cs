@@ -1,15 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using pinkJB_core.Models;
+using pinkJB_core.Services;
 
 namespace pinkJB_core.Controllers
 {
     public class StoreController : Controller
     {
-        
-        public IActionResult Details()
+
+        private readonly IProductsService _service;
+
+        public StoreController(IProductsService service)
         {
-            return View();
+            _service = service;
         }
+
+
+
         public string Index()
         {
             return "First default action";
@@ -18,5 +25,7 @@ namespace pinkJB_core.Controllers
         {
             return "This is welcome action method";
         }
+        
+
     }
 }

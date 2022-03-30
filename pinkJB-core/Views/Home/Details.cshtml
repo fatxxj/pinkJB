@@ -1,5 +1,8 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+
+@model Product
+@{
+    ViewData["Title"] = "Product details";
 }
 
 <div class="text-center">
@@ -8,27 +11,68 @@
 
 </div>
 <div class="row">
-    <div class="col-md-12"> 
-        <br />
 
-        <h2 class=" text-center customFont" style="font-size: 35px">About Us</h2><br />
-        <p class="text-justify customFont" style="font-weight: 500; font-size: 21px;">
-            Pink JB is a pyjamas store, but the story is not it. Pink JB specializes in fancy pyjama sets, comfy loungewear, nightwear  making your morning feel so special.
-            Pink JB specializes in custom made pyjamas where we offer custom embroidery based on your wishes.
-            Pink JB has a variety of models, styles, and special occassion designs based on what are you interested on, we also offer helping hand by offering you our bestsellers.
-        </p>
-        <p class="text-justify customFont" style="font-weight: 500; font-size: 21px;">
-            Ordering on pinkJB is easier than ever. With a click on the button you can visit our online store, check our products, check product description, check availability , choose your favorite design and fitting size, pay with a card and its good to go. PinkJB is on <a href="https://www.instagram.com/accounts/login/?next=/pinkjb_/">Instagram</a>  too where you can see user reviews and ratings.
 
-        </p>
-        <br />
-       <!--<p class="text-center"><a href="https://asp.net" class="btn btn-primary btn-lg">Go to store &raquo;</a></p>--> 
+        
+        <div class="col-md-8 offset-2">
+                    <span class="border-primary">
 
-    </div>
-     
+            <div class="card mb-12">
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <div class="card-header text-white bg-pinkJB text-center" style="background-color: deeppink">
+                            <p class="card-text text-white">
+                                <h2 class="card-title customFont text-white" style="color: white">
+                                    @Model.ProductName
+                                    <br>
+                                   
+                                </h2>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="@Model.ProductImage" width="100%" alt="@Model.ProductName">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text customFont">@Model.ProductDescription</p>
+                            <p class="card-text customFont" >
+                                <b>Status: </b>
+                                @if (@Model.amountLeft >= 1)
+                                {
+                                    <span class="badge bg-pinkJB  text-white" style="background-color: hotpink">AVAILABLE</span>
+                                }
+                                
+                                else
+                                {
+                                    <span class="badge bg-danger text-white">NOT AVAILABLE</span>
+
+                                }
+                            </p>
+                            <p class="card-text customFont" >
+                                <b>Material: </b>
+                                        @Model.ProductMaterial
+                                </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-footer ">
+                            <p class="card-text customFont">
+                                <a class="btn btn-outline-primary float-right" asp-action="Details" >
+                                    <i class="bi bi-eye-fill"></i> Show Details
+                                </a>
+                                @Model.ProductPrice.ToString("c")
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </span>
+        </div>
+  
+
 </div>
-<div class="row">
-    <div class="col-md-12 text-center">
-                <a class="btn btn-primary btn-lg"   asp-action="Store">Go to store &raquo;</a>
-    </div>
-</div>
+
+        

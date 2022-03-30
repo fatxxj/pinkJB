@@ -35,7 +35,7 @@ namespace eTickets.Data.Base
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync() 
         {
             var result = await _context.Set<T>().ToListAsync();
             return result;

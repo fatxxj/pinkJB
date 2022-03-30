@@ -14,5 +14,7 @@ namespace pinkJB_core.Models
         public string ProductImage { get; set; }
         public int amountLeft { get; set; }
 
+        public string ProductMaterial { get; set; }
+
     }
 }

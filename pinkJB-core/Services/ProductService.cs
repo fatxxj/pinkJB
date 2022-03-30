@@ -1,4 +1,5 @@
 ﻿using eTickets.Data.Base;
+using Microsoft.EntityFrameworkCore;
 using pinkJB_core.Data;
 using pinkJB_core.Models;
 using System.Threading.Tasks;
@@ -14,11 +15,15 @@ namespace pinkJB_core.Services
             _context = context;
         }
 
-        public Task<Product> getProductByIdAsync(int id)
+        public async Task<Product> getByIdAsync(int id)
         {
-            throw new System.NotImplementedException();
+            var movieDetails = await _context.Products
+                .FirstOrDefaultAsync(n => n.Id == id);
 
+            return movieDetails;
         }
+
+        
 
         public Task<Product> getProductByNameAsync(string name)
         {

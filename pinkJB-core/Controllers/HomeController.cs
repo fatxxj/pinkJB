@@ -24,12 +24,14 @@ namespace pinkJB_core.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public async Task< IActionResult> Details(int id)
         {
-            return View();
+            var details = await _service.getByIdAsync(id);
+            return View(details);
+
         }
 
+        
         public async Task<IActionResult> Store()
         {
             var allProducts = await _service.GetAllAsync();

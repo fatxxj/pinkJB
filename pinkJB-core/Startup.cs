@@ -35,6 +35,7 @@ namespace pinkJB_core
             services.AddControllersWithViews();
 
             services.AddScoped<IProductsService, ProductService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services
                 .AddControllersWithViews()
