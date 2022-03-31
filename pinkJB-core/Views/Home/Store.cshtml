@@ -8,68 +8,72 @@
 <div class="text-center">
     <br /><br /><br />
     <h1 class="customFont" style="font-size: 65px;">Pink <b><i>JB</i></b></h1>
-
+    <br/><br/>
 </div>
-<div class="row">
+<div class="row g-2">        
+
  @foreach (var item in Model)
     {
-
         
-        <div class="col-md-4 col-xs-6 border-primary mb-3">
-                    <span class="border-primary">
+        <div class="col-md-6 col-xs-6 border-primary mb-3 ">
+            <span class="border-primary">
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-12">
-                        <div class="card-header text-white bg-pinkJB text-center" style="background-color: deeppink">
+                <div class="card mb-3 " style="max-width: 540px;">
+                    <div class="row  ">
+                        <div class="col-md-12">
+                            <div class="card-header text-white bg-pinkJB text-center" style=" background-color: deeppink">
                            
                                 <h3 class="card-title customFont text-white" style="color: white">
                                     @item.ProductName
-                                    <br>
+                                    
                                    
                                 </h3>
-                           
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="@item.ProductImage" width="100%" alt="@item.ProductName">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <p class="card-text customFont">@item.ProductDescription</p>
-                            <p class="card-text customFont" >
-                                <b>Status: </b>
-                                @if (@item.amountLeft >= 1)
-                                {
-                                    <span class="badge bg-pinkJB  text-white" style="font-size: 10px; background-color: hotpink">AVAILABLE</span>
-                                }
-                                
-                                else
-                                {
-                                        <span class="badge bg-danger text-white">NOT AVAILABLE</span>
-
-                                }
-                            </p>
-
+                        <div class="col-md-6">
+                            <a asp-action="Details" asp-route-id="@item.Id">
+                                <img src="@item.ProductImage"class="img-thumbnail" width="100%" alt="@item.ProductName">
+                            </a>
+                        
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="card-footer ">
-                            <p class="card-text customFont">
-                                <a class="btn btn-outline-primary float-right" asp-action="Details" asp-route-id="@item.Id" >
-                                    <i class="bi bi-eye-fill"></i> Show Details
-                                </a>
-                                @item.ProductPrice.ToString("c")
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="card-text customFont">@item.ProductDescription</p>
+                                <p class="card-text customFont" >
+                                    <b>Status: </b>
+                                    @if (@item.amountLeft >= 1)
+                                    {
+                                        <span class="badge bg-pinkJB  text-white" style="font-style: italic; font-weight: normal; font-size: 11px; color: white; background-color: hotpink;">AVAILABLE</span>
+                                    }
                                 
-                            </p>
+                                    else
+                                    {
+                                        <span style="font-size: 11px; font-weight: normal;  font-style: italic; color: white;" class="badge bg-danger text-white">NOT AVAILABLE</span>
+
+                                    }
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-footer ">
+                                <p class="card-text customFont " style="font-size: 22px;">
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
+                                        <i class="bi bi-eye-fill"></i> Show Details
+                                    </a>
+                                    @item.ProductPrice.ToString("c")
+                                
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-              </span>
+            </span>
         </div>
+
   
     }
+ <br/>
 </div>
 
         
