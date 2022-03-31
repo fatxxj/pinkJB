@@ -10,30 +10,28 @@
     <h1 class="customFont" style="font-size: 65px;">Pink <b><i>JB</i></b></h1>
 
 </div>
-<div class="row">
+<div class="row ">
 
 
         
-        <div class="col-md-8 offset-2">
+        <div class="col-md-12  text-center">
                     <span class="border-primary">
 
             <div class="card mb-12">
-                <div class="row g-0">
+                <div class="row g-0 ">
                     <div class="col-md-12">
-                        <div class="card-header text-white bg-pinkJB text-center" style="background-color: deeppink">
-                            <p class="card-text text-white">
-                                <h2 class="card-title customFont text-white" style="color: white">
+                        <div class="card-header align-content-center bg-pinkJB text-center" style="  height: 65%;  margin-left: 10%; width: 80%; background-color: deeppink">
+                                <h3 class="card-title customFont text-center text-white" style="color: white; font-size: 20px;">
                                     @Model.ProductName
-                                    <br>
                                    
-                                </h2>
-                            </p>
+                                   
+                                </h3>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="@Model.ProductImage" width="100%" alt="@Model.ProductName">
+                    <div class="col-md-12">
+                        <img src="@Model.ProductImage" style="height: 400px; width: 400px;" alt="@Model.ProductName">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="card-body">
                             <p class="card-text customFont">@Model.ProductDescription</p>
                             <p class="card-text customFont" >
@@ -58,13 +56,17 @@
                     </div>
                     <div class="col-md-12">
                         <div class="card-footer ">
+             
+
+                            
                             <p class="card-text customFont">
-                                <a class="btn btn-outline-primary float-right" asp-action="Details" >
-                                    <i class="bi bi-eye-fill"></i> Show Details
-                                </a>
+                                <a class="btn btn-outline-primary float-right" asp-action="Store">
+                                    <i class="bi bi-cart"></i> Back to store
+                                </a> 
                                 @Model.ProductPrice.ToString("c")
-                                
+
                             </p>
+                           
                         </div>
                     </div>
                 </div>
