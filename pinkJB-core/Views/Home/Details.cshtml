@@ -1,81 +1,69 @@
-﻿
-
-@model Product
-@{
-    ViewData["Title"] = "Product details";
-}
-
+﻿<div class="display-block">
 <div class="text-center">
     <br /><br /><br />
     <h1 class="customFont" style="font-size: 65px;">Pink <b><i>JB</i></b></h1>
-    <br/>
+    <br />
 </div>
 <div class="row ">
-
-
-        
-        <div class="col-md-12  text-center">
-                    <span class="border-primary">
-
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center marin-auto ">
             <div class="card mb-12">
                 <div class="row g-0 ">
                     <div class="col-md-12">
                         <div class="card-header bg-pinkJB text-center" style=" width: 100%; background-color: deeppink">
-                                <h3 class="card-title customFont text-center align-content-center text-white" style="color: white; font-size: 20px;">
+                            <h3 class="card-title customFont text-center align-content-center text-white" style="color: white; font-size: 20px;">
                                     @Model.ProductName
-                                   
-                                   
-                                </h3>
+                            </h3>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <br/>
-                        <img src="@Model.ProductImage"  class="img-thumbnail" style="height: 400px; width: 400px;" alt="@Model.ProductName">
+                        <br />
+                        <img src="@Model.ProductImage" class="img-thumbnail" style="height: 400px; width: 400px;" alt="@Model.ProductName">
                     </div>
                     <div class="col-md-12">
                         <div class="card-body">
                             <p class="card-text customFont">@Model.ProductDescription</p>
-                            <p class="card-text customFont" >
+                            <p class="card-text customFont">
                                 <b>Status: </b>
-                                @if (@Model.amountLeft >= 1)
-                                {
+                                    @if (@Model.amountLeft >= 1)
+                                    {
                                     <span class="badge bg-pinkJB  text-white" style="font-weight: normal; font-style: italic; background-color: hotpink; color: white;">AVAILABLE</span>
-                                }
-                                
-                                else
-                                {
+                                    }
+                                    else
+                                    {
                                     <span class="badge bg-danger text-white" style="font-weight: normal; color: white "><i>NOT AVAILABLE</i></span>
-
-                                }
+                                    }
                             </p>
-                            <p class="card-text customFont" >
+                            <p class="card-text customFont">
                                 <b>Material: </b>
-                                        @Model.ProductMaterial
-                                </p>
-
+                                    @Model.ProductMaterial
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="card-footer ">
-             
-
-                            
-                            <p class="card-text customFont" style="font-size: 22px; ">
-                                <a style="color: deeppink" class="btn btn-outline-primary float-right" asp-action="Store">
-                                    <i class="bi bi-cart"></i> Back to store
-                                </a> 
-                                @Model.ProductPrice.ToString("c")
-
-                            </p>
-                           
+                        <div class="col-md-12 justify-content-around text-center">
+                            <div class="card-footer ">
+                                <p class="card-text customFont " style="font-size: 19px;">
+                                   <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@Model.Id" >
+                                        <i class="bi bi-eye-fill"></i> Show Details
+                                    </a>
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="" asp-route-id="@Model.Id" >
+                                        <i class="bi bi-cart"></i> Add to card
+                                    </a>
+                                    
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 19px; color: deeppink; text-decoration: none;" >
+                                        @Model.ProductPrice.ToString("c")
+                                    </a>
+                                    
+                                    
+                                
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-              </span>
         </div>
-  
-
+<div class="col-md-2"></div>
 </div>
-
-        
+</div>

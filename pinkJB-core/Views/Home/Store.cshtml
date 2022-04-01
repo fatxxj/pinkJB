@@ -55,13 +55,21 @@
 
                             </div>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12 justify-content-around text-center">
                             <div class="card-footer ">
-                                <p class="card-text customFont " style="font-size: 22px;">
-                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
+                                <p class="card-text customFont " style="font-size: 19px;">
+                                   <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
                                         <i class="bi bi-eye-fill"></i> Show Details
                                     </a>
-                                    @item.ProductPrice.ToString("c")
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="" asp-route-id="@item.Id" >
+                                        <i class="bi bi-cart"></i> Add to card
+                                    </a>
+                                    
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 19px; color: deeppink; text-decoration: none;" >
+                                        @item.ProductPrice.ToString("c")
+                                    </a>
+                                    
+                                    
                                 
                                 </p>
                             </div>

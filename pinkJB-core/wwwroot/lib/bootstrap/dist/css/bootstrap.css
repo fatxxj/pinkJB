@@ -52,10 +52,19 @@ a {
     background-color: transparent;
 }
 
-    a:active,
-    a:hover {
-        outline: 0;
+    .display-block
+    {
+        display: block;
     }
+.marin-auto
+{
+    margin: 0 auto;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
 
 abbr[title] {
     border-bottom: none;
