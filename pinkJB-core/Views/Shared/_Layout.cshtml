@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Pink JB</title>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="/lib/bootstrap/dist/css/myCss.css">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/myCss.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,19 +22,27 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Pink JB", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                @*@Html.ActionLink("Pink JB", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Store", "Store", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <div class="navbar-collapse collapse align-items-center">
+                <ul class="nav navbar-nav align-items-center">
+                    <li style="font-size: 20px;" class="customFont">@Html.ActionLink("Pink JB","Index","Home")</li>
+                    <li class="customFont">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="customFont">@Html.ActionLink("Store", "Store", "Home")</li>
+                    <li class="customFont">@Html.ActionLink("Contact", "Contact", "Home")</li>
 
-
-                    
                 </ul>
+                <ul class="text-end align-items-center">
+                <li class="text-end" style="list-style-type: none; color: white">
+                    @await Component.InvokeAsync("ShoppingCartSummary")
+                </li>
+            </ul>
             </div>
+            
         </div>
+
+    </div>
     </div>
     <div class="container body-content">
         @RenderBody()

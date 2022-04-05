@@ -1,4 +1,5 @@
-﻿
+﻿@using System.Globalization
+@using System;
 
 @model IEnumerable<Product>
 @{
@@ -8,8 +9,9 @@
 <div class="text-center">
     <br /><br /><br />
     <h1 class="customFont" style="font-size: 65px;">Pink <b><i>JB</i></b></h1>
-    <br/><br/>
-</div>
+
+    
+
 <div class="row g-2">        
 
  @foreach (var item in Model)
@@ -17,8 +19,10 @@
         
         <div class="col-md-6 col-xs-6 border-primary mb-3 ">
             <span class="border-primary">
+               
 
                 <div class="card mb-3 " style="max-width: 540px;">
+
                     <div class="row  ">
                         <div class="col-md-12">
                             <div class="card-header text-white bg-pinkJB text-center" style=" background-color: deeppink">
@@ -61,7 +65,7 @@
                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
                                         <i class="bi bi-eye-fill"></i> Show Details
                                     </a>
-                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="" asp-route-id="@item.Id" >
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@item.Id" >
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     

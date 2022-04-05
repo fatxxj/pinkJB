@@ -31,7 +31,14 @@ namespace pinkJB_core.Controllers
 
         }
 
-        
+        public async Task<IActionResult> Card(int id)
+        {
+            var item = await _service.getByIdAsync(id);
+            return View(item);
+
+        }
+
+
         public async Task<IActionResult> Store()
         {
             var allProducts = await _service.GetAllAsync();

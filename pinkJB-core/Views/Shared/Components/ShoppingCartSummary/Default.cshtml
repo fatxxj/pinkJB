@@ -1,0 +1,11 @@
+﻿@model int;
+
+@if(Model>0){
+<li class="nav-item" style="list-style-type: none">
+    <h3 class="customFont" style="color: white">
+    <a asp-controller="Orders" asp-action="ShoppingCart" class="nav-link customFont align-content-center "style="color: white; text-decoration: none">
+        <i class="bi bi-cart4 bi-4x" style="width: 40px;"></i>@Model
+    </a>
+    </h3>
+</li>
+}

@@ -15,6 +15,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using pinkJB_core.Data;
 using pinkJB_core.Services;
+using pinkJB_core.Data.Cart;
+using System;
+using System.Globalization;
 
 namespace pinkJB_core
 {
@@ -32,10 +35,13 @@ namespace pinkJB_core
         {
             //DB context config
             services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+            services.AddSession();
             services.AddControllersWithViews();
 
             services.AddScoped<IProductsService, ProductService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
+
 
             services
                 .AddControllersWithViews()
@@ -43,6 +49,8 @@ namespace pinkJB_core
 
 
         }
+
+        public virtual string ISOCurrencySymbol { get; }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -61,7 +69,7 @@ namespace pinkJB_core
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

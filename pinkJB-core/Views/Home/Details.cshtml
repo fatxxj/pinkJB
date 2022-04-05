@@ -44,10 +44,10 @@
                         <div class="col-md-12 justify-content-around text-center">
                             <div class="card-footer ">
                                 <p class="card-text customFont " style="font-size: 19px;">
-                                   <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@Model.Id" >
-                                        <i class="bi bi-eye-fill"></i> Show Details
+                                   <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Store"  >
+                                        <i class="bi bi-eye-fill"></i> Back to store
                                     </a>
-                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="" asp-route-id="@Model.Id" >
+                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@Model.Id">
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     
