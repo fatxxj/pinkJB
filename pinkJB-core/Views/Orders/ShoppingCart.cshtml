@@ -14,7 +14,7 @@
         </div>
         <table class="table">
             <thead>
-                <tr>
+                <tr class="customFont">
                     <th>Selected amount</th>
                     <th>Product Name</th>
                     <th>Price</th>
@@ -26,7 +26,7 @@
             <tbody>
                 @foreach(var item in Model.ShoppingCart.ShoppingCartItems)
                 {
-                    <tr>
+                    <tr class="customFont">
                         <td class="align-middle">@item.Amount</td>
                         <td class="align-middle">@item.Product.ProductName</td>
                         <td class="align-middle">@item.Product.ProductPrice.ToString("c")</td>
@@ -45,7 +45,7 @@
             </tbody>
 
             <tfoot>
-                <tr>
+                <tr class="customFont">
                     <td colspan="2"></td>
                     <td><b>Total:</b></td>
                     <td>@Model.ShoppingCartTotal.ToString("c")</td>
@@ -55,9 +55,20 @@
         </table>
         <div class="text-center">
             <div class="">
-                 <a class="btn-outline-success text-success card-link" asp-controller="Home" asp-action="Store">
+                <button class="btn btn-outline-danger buttoniTeCartSummary" style="background-color: deeppink;   ">
+
+                
+                <a  class="btn-outline-primary customFont card-link" style="color: white; text-decoration:none;" asp-controller="Orders" asp-action="CompleteOrder">
+                    Complete order
+                </a>
+                </button>
+                <button  class="btn btn-outline-danger buttoniTeCartSummary"  style="background-color: deeppink; ">
+
+                
+                 <a class="btn-outline-success customFont card-link  " style="color: white; text-decoration:none; "  asp-controller="Home" asp-action="Store">
                     Add more items
                 </a>
+                </button>
                
             </div>
         </div>

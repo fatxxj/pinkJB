@@ -10,10 +10,20 @@ namespace pinkJB_core.Controllers
     {
         private readonly IProductsService _productsService;
         private readonly ShoppingCart _shoppingCart;
-        public OrdersController(IProductsService productsService, ShoppingCart shoppingCart)
+        private readonly IOrdersService _ordersService;
+
+        public OrdersController(IProductsService productsService, ShoppingCart shoppingCart, IOrdersService ordersService)
         {
             _productsService = productsService;
             _shoppingCart = shoppingCart;
+            _ordersService = ordersService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            string userId = "";
+            var orders = await _ordersService.GetOrdersByUserIdAsync(userId);
+            return View(orders);
+
         }
         public IActionResult ShoppingCart()
         {
@@ -45,6 +55,16 @@ namespace pinkJB_core.Controllers
                 _shoppingCart.RemoveItemFromCart(item);
             }
             return RedirectToAction(nameof(ShoppingCart));
+        }
+
+        public async Task<IActionResult> CompleteOrder()
+        {
+            var items=_shoppingCart.GetShoppingCartItems();
+            string userId = "";
+            string userEmailAddress = "";
+            await _ordersService.StoreOrderAsync(items,userId,userEmailAddress);
+            await _shoppingCart.ClearShoppingCartAsync();
+            return View("OrderCompleted");
         }
     }
 }

@@ -25,25 +25,55 @@
 
                 @*@Html.ActionLink("Pink JB", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
             </div>
-            <div class="navbar-collapse collapse align-items-center">
-                <ul class="nav navbar-nav align-items-center">
+            <div class="navbar-collapse collapse align-items-center" >
+                <ul class="nav navbar-nav align-items-center" style="display: inline-block">
                     <li style="font-size: 20px;" class="customFont">@Html.ActionLink("Pink JB","Index","Home")</li>
                     <li class="customFont">@Html.ActionLink("Home", "Index", "Home")</li>
                     <li class="customFont">@Html.ActionLink("Store", "Store", "Home")</li>
                     <li class="customFont">@Html.ActionLink("Contact", "Contact", "Home")</li>
 
                 </ul>
-                <ul class="text-end align-items-center">
-                <li class="text-end" style="list-style-type: none; color: white">
-                    @await Component.InvokeAsync("ShoppingCartSummary")
-                </li>
-            </ul>
+                <div class="text-end align-items-center">
+                    
+                    <ul class="text-end" style="display: inline-block; list-style-type:none">
+                        <li>
+                            <button class="btn btn-outline-success dropdown-toggle" id="profile-btn" data-toggle="dropdown" aria-expanded="false" style="margin-top: 15px;">
+                                <i class="bi bi-person-bardge"></i> Hello User
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="profile-btn">
+                                <li>
+                                    <a class="dropdown-item">
+                                        bello
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                 
+
+                    <ul class="text-end" style="display: inline-block; list-style-type:none">
+                        <li class="text-end" style="list-style-type: none; color: white; margin-top: -10px; " >
+                            @await Component.InvokeAsync("ShoppingCartSummary")
+                        </li>
+
+                    </ul>
+                    
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
-            
+
         </div>
 
     </div>
-    </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />

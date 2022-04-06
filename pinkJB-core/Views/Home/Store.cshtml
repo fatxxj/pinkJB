@@ -62,16 +62,19 @@
                         <div class="col-md-12 justify-content-around text-center">
                             <div class="card-footer ">
                                 <p class="card-text customFont " style="font-size: 19px;">
-                                   <a class="btn btn-outline-primary customFont float-right" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
+                                   <a class="btn btn-outline-primary customFont float-right buttoniTeStore" style="font-size: 15px; color: deeppink" asp-action="Details" asp-route-id="@item.Id" >
                                         <i class="bi bi-eye-fill"></i> Show Details
                                     </a>
-                                    <a class="btn btn-outline-primary customFont float-right" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@item.Id" >
+                                    
+                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")"  style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@item.Id" >
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     
-                                    <a class="btn btn-outline-primary customFont float-right" style="font-size: 19px; color: deeppink; text-decoration: none;" >
+                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")" style="font-size: 19px; color: deeppink; text-decoration: none;" >
                                         @item.ProductPrice.ToString("c")
                                     </a>
+
+
                                     
                                     
                                 

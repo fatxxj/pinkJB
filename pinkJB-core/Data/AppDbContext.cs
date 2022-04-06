@@ -13,7 +13,7 @@ namespace pinkJB_core.Data
         public DbSet<Product> Products { get; set; } //model name
 
         //Order table
-        public DbSet<Orders> Orders { get; set; }
+        public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet <ShoppingCartItem> ShoppingCartItems { get; set; }
 

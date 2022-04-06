@@ -44,14 +44,14 @@
                         <div class="col-md-12 justify-content-around text-center">
                             <div class="card-footer ">
                                 <p class="card-text customFont " style="font-size: 19px;">
-                                   <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-action="Store"  >
+                                   <a class="btn btn-outline-primary float-right buttoniTeStore" style="font-size: 15px; color: deeppink" asp-action="Store"  >
                                         <i class="bi bi-eye-fill"></i> Back to store
                                     </a>
-                                    <a class="btn btn-outline-primary float-right" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@Model.Id">
+                                    <a class="btn btn-outline-primary float-right buttoniTeStore @((Model.amountLeft<=0) ? "disabled" : "")" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@Model.Id">
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     
-                                    <a class="btn btn-outline-primary float-right" style="font-size: 19px; color: deeppink; text-decoration: none;" >
+                                    <a class="btn btn-outline-primary float-right buttoniTeStore @((Model.amountLeft<=0) ? "disabled" : "")" style="font-size: 19px; color: deeppink; text-decoration: none;" >
                                         @Model.ProductPrice.ToString("c")
                                     </a>
                                     

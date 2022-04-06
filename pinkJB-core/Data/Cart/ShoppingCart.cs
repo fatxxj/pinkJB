@@ -5,6 +5,7 @@ using pinkJB_core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace pinkJB_core.Data.Cart
 {
@@ -76,5 +77,13 @@ namespace pinkJB_core.Data.Cart
             var total = _context.ShoppingCartItems.Where(n=>n.ShoppingCartId==ShoppingCartId).Select(n=>n.Product.ProductPrice * n.Amount).Sum();
             return total;
         }
+
+        public async Task ClearShoppingCartAsync()
+        {
+            var items = await _context.ShoppingCartItems.Where(n => n.ShoppingCartId == ShoppingCartId).ToListAsync();
+            _context.ShoppingCartItems.RemoveRange(items);
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

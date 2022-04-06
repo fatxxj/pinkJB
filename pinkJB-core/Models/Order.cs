@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace pinkJB_core.Models
 {
-    public class Orders
+    public class Order
     {
         [Key]
         public int Id { get; set; }

@@ -13,6 +13,6 @@ namespace pinkJB_core.Models
         public virtual Product Product { get; set; }
         public int OrderId { get; set; }
         [ForeignKey("OrderId")]
-        public virtual Orders Order { get; set; }
+        public virtual Order Order { get; set; }
     }
 }
