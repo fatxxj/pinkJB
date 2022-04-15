@@ -3,9 +3,11 @@ i:{00000000-0000-0000-0000-000000000000}:pinkJB-core.sln
 ++pinkJB-core
 i:{00000000-0000-0000-0000-000000000000}:pinkJB-core
 ++Connected Services 
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1279
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1441
 ++Dependencies
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1278
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1440
+++Imports
+i:{c4894090-b31c-412d-a675-344ba282391f}:>644
 ++Properties
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\
 ++wwwroot
@@ -18,10 +20,12 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\
-++site.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\site.js
 ++lib
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\
 ++bootstrap
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\
 ++dist
@@ -55,6 +59,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Base
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\base\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\
+++bin
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\
 ++Controllers
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\controllers\
 ++HomeController.cs
@@ -67,16 +73,14 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\
 ++Cart
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\
-++ShoppingCart.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\shoppingcart.cs
 ++Enums
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\enums\
 ++ViewComponents
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewcomponents\
-++ShoppingCartSummary.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewcomponents\shoppingcartsummary.cs
 ++ViewModels
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\
+++NewProductVM.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\newproductvm.cs
 ++ShoppingCartVM.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\shoppingcartvm.cs
 ++AppDbContext.cs
@@ -87,22 +91,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\images\
 ++Migrations
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\
-++20220329085530_mig1.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329085530_mig1.cs
-++20220329124954_Zaliha.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329124954_zaliha.cs
-++20220329125550_zaliha1.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329125550_zaliha1.cs
-++20220405071732_OrderandOrderItem.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405071732_orderandorderitem.cs
-++20220405072100_OrderandOrderItem1.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405072100_orderandorderitem1.cs
-++20220405090045_ShoppingCartItems.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405090045_shoppingcartitems.cs
-++20220405090045_ShoppingCartItems.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405090045_shoppingcartitems.designer.cs
-++AppDbContextModelSnapshot.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\appdbcontextmodelsnapshot.cs
 ++Models
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\models\
 ++ErrorViewModel.cs
@@ -115,14 +103,30 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\models\product.cs
 ++ShoppingCartItem.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\models\shoppingcartitem.cs
+++obj
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\
 ++Services
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\
+++.editorconfig
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\.editorconfig
+++IOrdersService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iordersservice.cs
+++IProductsService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iproductsservice.cs
+++OrdersService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\ordersservice.cs
+++ProductService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\productservice.cs
 ++Views
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\
 ++Home
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\
 ++Contact.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\contact.cshtml
+++Create.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\create.cshtml
 ++Details.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\details.cshtml
 ++Index.cshtml
@@ -132,16 +136,15 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\store.cshtml
 ++Orders
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\
-++OrderCompleted.cshtml
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\ordercompleted.cshtml
-++ShoppingCart.cshtml
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\shoppingcart.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\
 ++Shared
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\
 ++Components
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\
-++ShoppingCartSummary
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\shoppingcartsummary\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\
+++_CreateItem.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\_createitem.cshtml
 ++_Layout.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\_layout.cshtml
 ++_ValidationScriptsPartial.cshtml
@@ -154,22 +157,32 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\_viewstart.cshtml
 ++appsettings.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\appsettings.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\appsettings.json
 ++Program.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\program.cs
 ++Startup.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\startup.cs
 ++SQL Server Express LocalDB (Local) (ConnectionStrings:pinkJB_coreContext)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1305
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1467
 ++Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:analyzers
 ++Frameworks
 i:{c4894090-b31c-412d-a675-344ba282391f}:frameworks
 ++Packages
 i:{c4894090-b31c-412d-a675-344ba282391f}:packages
+++Sdk.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\sdk\sdk.targets
 ++launchSettings.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\launchsettings.json
 ++serviceDependencies.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.json
+++serviceDependencies.local.json.user
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.local.json.user
+++site.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\site.js
 ++bootstrap.css.map
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 ++bootstrap.min.css
@@ -191,52 +204,71 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\license.md
 ++jquery.validate.unobtrusive.js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++Debug
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\
 ++EntityBaseRepository.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\entitybaserepository.cs
 ++IEntityBase.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybase.cs
 ++IEntityBaseRepository.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybaserepository.cs
+++ShoppingCart.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\shoppingcart.cs
 ++ProductCategory.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\enums\productcategory.cs
-++20220329085530_mig1.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329085530_mig1.designer.cs
-++20220329124954_Zaliha.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329124954_zaliha.designer.cs
-++20220329125550_zaliha1.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329125550_zaliha1.designer.cs
-++20220405071732_OrderandOrderItem.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405071732_orderandorderitem.designer.cs
-++20220405072100_OrderandOrderItem1.Designer.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405072100_orderandorderitem1.designer.cs
-++.editorconfig
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\.editorconfig
-++IOrdersService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iordersservice.cs
-++IProductsService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iproductsservice.cs
-++OrdersService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\ordersservice.cs
-++ProductService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\productservice.cs
-++Default.cshtml
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\shoppingcartsummary\default.cshtml
+++ShoppingCartSummary.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewcomponents\shoppingcartsummary.cs
+++20220329085530_mig1.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329085530_mig1.cs
+++20220329124954_Zaliha.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329124954_zaliha.cs
+++20220329125550_zaliha1.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329125550_zaliha1.cs
+++20220405071732_OrderandOrderItem.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405071732_orderandorderitem.cs
+++20220405072100_OrderandOrderItem1.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405072100_orderandorderitem1.cs
+++20220405090045_ShoppingCartItems.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405090045_shoppingcartitems.cs
+++AppDbContextModelSnapshot.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\appdbcontextmodelsnapshot.cs
+++pinkJB-core.csproj.nuget.dgspec.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\pinkjb-core.csproj.nuget.dgspec.json
+++pinkJB-core.csproj.nuget.g.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\pinkjb-core.csproj.nuget.g.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\pinkjb-core.csproj.nuget.g.props
+++pinkJB-core.csproj.nuget.g.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\pinkjb-core.csproj.nuget.g.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\pinkjb-core.csproj.nuget.g.targets
+++project.assets.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\project.assets.json
+++project.nuget.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\project.nuget.cache
+++OrderCompleted.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\ordercompleted.cshtml
+++ShoppingCart.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\shoppingcart.cshtml
+++ShoppingCartSummary
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\shoppingcartsummary\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\shoppingcartsummary\
 ++appsettings.Development.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\appsettings.development.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 ++Microsoft.CodeAnalysis.Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.14\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++System.Text.Json.SourceGeneration
@@ -246,25 +278,41 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Microsoft.NETCore.App
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\microsoft.netcore.app
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1300
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1462
 ++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.13)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1296
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1458
 ++Microsoft.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1297
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1459
 ++Microsoft.EntityFrameworkCore.Design (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1299
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1461
 ++Microsoft.EntityFrameworkCore.SqlServer (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1298
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1460
 ++Microsoft.EntityFrameworkCore.SqlServer.Design (1.1.6)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1295
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1457
 ++Microsoft.EntityFrameworkCore.Tools (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1302
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1464
 ++Microsoft.EntityFrameworkCore.UnitOfWork (3.1.0)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1304
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1466
 ++Microsoft.Graph (4.22.0)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1301
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1463
 ++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1303
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1465
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
 ++serviceDependencies.local.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.local.json
 ++bootstrap.min.css.map
@@ -287,6 +335,51 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 ++jquery.validate.unobtrusive.min.js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++net5.0
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\net5.0\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\net5.0\
+++20220329085530_mig1.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329085530_mig1.designer.cs
+++20220329124954_Zaliha.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329124954_zaliha.designer.cs
+++20220329125550_zaliha1.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220329125550_zaliha1.designer.cs
+++20220405071732_OrderandOrderItem.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405071732_orderandorderitem.designer.cs
+++20220405072100_OrderandOrderItem1.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405072100_orderandorderitem1.designer.cs
+++20220405090045_ShoppingCartItems.Designer.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\migrations\20220405090045_shoppingcartitems.designer.cs
+++Default.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\shoppingcartsummary\default.cshtml
+++Microsoft.Common.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
 ++bootstrap.bundle.js.map
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 ++bootstrap.bundle.min.js
@@ -299,7 +392,1149 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 ++jquery.validate.min.js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\
+++de
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\
+++es
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\es\
+++fr
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\fr\
+++it
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\it\
+++ja
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ja\
+++ko
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ko\
+++pl
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pl\
+++pt-BR
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pt-br\
+++refs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\
+++ru
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ru\
+++runtimes
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\
+++tr
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\tr\
+++zh-Hans
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hans\
+++zh-Hant
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hant\
+++Azure.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\azure.core.dll
+++dotnet-aspnet-codegenerator-design.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+++Humanizer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\humanizer.dll
+++Microsoft.AspNetCore.Cryptography.Internal.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.cryptography.internal.dll
+++Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.cryptography.keyderivation.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.identity.entityframeworkcore.dll
+++Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.mvc.razor.extensions.dll
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.mvc.razor.runtimecompilation.dll
+++Microsoft.AspNetCore.Razor.Language.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.aspnetcore.razor.language.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.codeanalysis.csharp.workspaces.dll
+++Microsoft.CodeAnalysis.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.Razor.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.codeanalysis.razor.dll
+++Microsoft.CodeAnalysis.Workspaces.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.codeanalysis.workspaces.dll
+++Microsoft.Data.SqlClient.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.data.sqlclient.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.AutoHistory.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.autohistory.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.Relational.Design.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.relational.design.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.sqlserver.design.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.EntityFrameworkCore.UnitOfWork.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.entityframeworkcore.unitofwork.dll
+++Microsoft.Extensions.DependencyInjection.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.extensions.dependencyinjection.dll
+++Microsoft.Extensions.DependencyModel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.extensions.dependencymodel.dll
+++Microsoft.Extensions.Identity.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.extensions.identity.core.dll
+++Microsoft.Extensions.Identity.Stores.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.extensions.identity.stores.dll
+++Microsoft.Graph.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.graph.core.dll
+++Microsoft.Graph.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.graph.dll
+++Microsoft.Identity.Client.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.identitymodel.tokens.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.contracts.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.core.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.entityframeworkcore.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.templating.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegeneration.utils.dll
+++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\microsoft.visualstudio.web.codegenerators.mvc.dll
+++Newtonsoft.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\newtonsoft.json.dll
+++pinkJB-core.deps.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.deps.json
+++pinkJB-core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\ref\pinkjb-core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\refint\pinkjb-core.dll
+++pinkJB-core.exe
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.exe
+++pinkJB-core.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.pdb
+++pinkJB-core.runtimeconfig.dev.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.runtimeconfig.dev.json
+++pinkJB-core.runtimeconfig.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.runtimeconfig.json
+++pinkJB-core.Views.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.views.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.views.dll
+++pinkJB-core.Views.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pinkjb-core.views.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.views.pdb
+++System.Composition.AttributedModel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.composition.attributedmodel.dll
+++System.Composition.Convention.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.composition.convention.dll
+++System.Composition.Hosting.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.composition.hosting.dll
+++System.Composition.Runtime.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.composition.runtime.dll
+++System.Composition.TypedParts.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.composition.typedparts.dll
+++System.Configuration.ConfigurationManager.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.configuration.configurationmanager.dll
+++System.Diagnostics.DiagnosticSource.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.diagnostics.diagnosticsource.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.identitymodel.tokens.jwt.dll
+++System.Memory.Data.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.memory.data.dll
+++System.Runtime.Caching.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.runtime.caching.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+++System.Runtime.CompilerServices.Unsafe.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.runtime.compilerservices.unsafe.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.security.cryptography.protecteddata.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+++System.Text.Encodings.Web.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.text.encodings.web.dll
+++System.Text.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\system.text.json.dll
+++Razor
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\
+++ref
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\ref\
+++refint
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\refint\
+++staticwebassets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\staticwebassets\
+++.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
+++apphost.exe
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\apphost.exe
+++pinkJB-core.AssemblyInfo.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.assemblyinfo.cs
+++pinkJB-core.AssemblyInfoInputs.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.assemblyinfoinputs.cache
+++pinkJB-core.assets.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.assets.cache
+++pinkJB-core.csproj.AssemblyReference.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.csproj.assemblyreference.cache
+++pinkJB-core.csproj.BuildWithSkipAnalyzers
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.csproj.buildwithskipanalyzers
+++pinkJB-core.csproj.CopyComplete
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.csproj.copycomplete
+++pinkJB-core.csproj.CoreCompileInputs.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.csproj.corecompileinputs.cache
+++pinkJB-core.csproj.FileListAbsolute.txt
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.csproj.filelistabsolute.txt
+++pinkJB-core.GeneratedMSBuildEditorConfig.editorconfig
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.generatedmsbuildeditorconfig.editorconfig
+++pinkJB-core.genruntimeconfig.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.genruntimeconfig.cache
+++pinkJB-core.MvcApplicationPartsAssemblyInfo.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.mvcapplicationpartsassemblyinfo.cache
+++pinkJB-core.MvcApplicationPartsAssemblyInfo.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.mvcapplicationpartsassemblyinfo.cs
+++pinkJB-core.RazorAssemblyInfo.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.razorassemblyinfo.cache
+++pinkJB-core.RazorAssemblyInfo.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.razorassemblyinfo.cs
+++pinkJB-core.RazorCoreGenerate.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.razorcoregenerate.cache
+++pinkJB-core.RazorTargetAssemblyInfo.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.razortargetassemblyinfo.cache
+++pinkJB-core.RazorTargetAssemblyInfo.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.razortargetassemblyinfo.cs
+++pinkJB-core.TagHelpers.input.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.taghelpers.input.cache
+++pinkJB-core.TagHelpers.output.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\pinkjb-core.taghelpers.output.cache
+++project.razor.json
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\project.razor.json
+++Microsoft.NuGet.ImportBefore.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Compilation.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.compilation.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.Component.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.component.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.5_0.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.5_0.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.5_0.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.5_0.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
 ++bootstrap.bundle.min.js.map
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++jquery.min.map
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.min.map
+++Microsoft.CodeAnalysis.CSharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\es\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\fr\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\it\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ja\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ko\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pl\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pt-br\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ru\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\tr\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hans\microsoft.codeanalysis.csharp.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hant\microsoft.codeanalysis.csharp.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\es\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\fr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\it\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ja\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ko\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pl\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pt-br\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ru\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\tr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hans\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hant\microsoft.codeanalysis.csharp.workspaces.resources.dll
+++Microsoft.CodeAnalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\es\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\fr\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\it\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ja\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ko\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pl\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pt-br\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ru\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\tr\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hans\microsoft.codeanalysis.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hant\microsoft.codeanalysis.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\es\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\fr\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\it\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ja\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ko\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pl\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\pt-br\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\ru\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\tr\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hans\microsoft.codeanalysis.workspaces.resources.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\zh-hant\microsoft.codeanalysis.workspaces.resources.dll
+++Microsoft.AspNetCore.Antiforgery.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.antiforgery.dll
+++Microsoft.AspNetCore.Authentication.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authentication.abstractions.dll
+++Microsoft.AspNetCore.Authentication.Cookies.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authentication.cookies.dll
+++Microsoft.AspNetCore.Authentication.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authentication.core.dll
+++Microsoft.AspNetCore.Authentication.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authentication.dll
+++Microsoft.AspNetCore.Authentication.OAuth.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authentication.oauth.dll
+++Microsoft.AspNetCore.Authorization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authorization.dll
+++Microsoft.AspNetCore.Authorization.Policy.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.authorization.policy.dll
+++Microsoft.AspNetCore.Components.Authorization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.components.authorization.dll
+++Microsoft.AspNetCore.Components.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.components.dll
+++Microsoft.AspNetCore.Components.Forms.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.components.forms.dll
+++Microsoft.AspNetCore.Components.Server.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.components.server.dll
+++Microsoft.AspNetCore.Components.Web.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.components.web.dll
+++Microsoft.AspNetCore.Connections.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.connections.abstractions.dll
+++Microsoft.AspNetCore.CookiePolicy.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.cookiepolicy.dll
+++Microsoft.AspNetCore.Cors.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.cors.dll
+++Microsoft.AspNetCore.DataProtection.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.dataprotection.abstractions.dll
+++Microsoft.AspNetCore.DataProtection.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.dataprotection.dll
+++Microsoft.AspNetCore.DataProtection.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.dataprotection.extensions.dll
+++Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.diagnostics.abstractions.dll
+++Microsoft.AspNetCore.Diagnostics.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.diagnostics.dll
+++Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.diagnostics.healthchecks.dll
+++Microsoft.AspNetCore.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.dll
+++Microsoft.AspNetCore.HostFiltering.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.hostfiltering.dll
+++Microsoft.AspNetCore.Hosting.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.hosting.abstractions.dll
+++Microsoft.AspNetCore.Hosting.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.hosting.dll
+++Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.hosting.server.abstractions.dll
+++Microsoft.AspNetCore.Html.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.html.abstractions.dll
+++Microsoft.AspNetCore.Http.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.abstractions.dll
+++Microsoft.AspNetCore.Http.Connections.Common.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.connections.common.dll
+++Microsoft.AspNetCore.Http.Connections.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.connections.dll
+++Microsoft.AspNetCore.Http.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.dll
+++Microsoft.AspNetCore.Http.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.extensions.dll
+++Microsoft.AspNetCore.Http.Features.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.http.features.dll
+++Microsoft.AspNetCore.HttpOverrides.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.httpoverrides.dll
+++Microsoft.AspNetCore.HttpsPolicy.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.httpspolicy.dll
+++Microsoft.AspNetCore.Identity.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.identity.dll
+++Microsoft.AspNetCore.Localization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.localization.dll
+++Microsoft.AspNetCore.Localization.Routing.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.localization.routing.dll
+++Microsoft.AspNetCore.Metadata.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.metadata.dll
+++Microsoft.AspNetCore.Mvc.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.abstractions.dll
+++Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.apiexplorer.dll
+++Microsoft.AspNetCore.Mvc.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.core.dll
+++Microsoft.AspNetCore.Mvc.Cors.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.cors.dll
+++Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.dataannotations.dll
+++Microsoft.AspNetCore.Mvc.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.dll
+++Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.formatters.json.dll
+++Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.formatters.xml.dll
+++Microsoft.AspNetCore.Mvc.Localization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.localization.dll
+++Microsoft.AspNetCore.Mvc.Razor.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.razor.dll
+++Microsoft.AspNetCore.Mvc.RazorPages.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.razorpages.dll
+++Microsoft.AspNetCore.Mvc.TagHelpers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.taghelpers.dll
+++Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.mvc.viewfeatures.dll
+++Microsoft.AspNetCore.Razor.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.razor.dll
+++Microsoft.AspNetCore.Razor.Runtime.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.razor.runtime.dll
+++Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.responsecaching.abstractions.dll
+++Microsoft.AspNetCore.ResponseCaching.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.responsecaching.dll
+++Microsoft.AspNetCore.ResponseCompression.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.responsecompression.dll
+++Microsoft.AspNetCore.Rewrite.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.rewrite.dll
+++Microsoft.AspNetCore.Routing.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.routing.abstractions.dll
+++Microsoft.AspNetCore.Routing.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.routing.dll
+++Microsoft.AspNetCore.Server.HttpSys.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.httpsys.dll
+++Microsoft.AspNetCore.Server.IIS.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.iis.dll
+++Microsoft.AspNetCore.Server.IISIntegration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.iisintegration.dll
+++Microsoft.AspNetCore.Server.Kestrel.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.kestrel.core.dll
+++Microsoft.AspNetCore.Server.Kestrel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.kestrel.dll
+++Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.server.kestrel.transport.sockets.dll
+++Microsoft.AspNetCore.Session.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.session.dll
+++Microsoft.AspNetCore.SignalR.Common.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.signalr.common.dll
+++Microsoft.AspNetCore.SignalR.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.signalr.core.dll
+++Microsoft.AspNetCore.SignalR.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.signalr.dll
+++Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.signalr.protocols.json.dll
+++Microsoft.AspNetCore.StaticFiles.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.staticfiles.dll
+++Microsoft.AspNetCore.WebSockets.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.websockets.dll
+++Microsoft.AspNetCore.WebUtilities.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.aspnetcore.webutilities.dll
+++Microsoft.CSharp.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.csharp.dll
+++Microsoft.Extensions.Caching.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.caching.abstractions.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.caching.memory.dll
+++Microsoft.Extensions.Configuration.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.abstractions.dll
+++Microsoft.Extensions.Configuration.Binder.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.binder.dll
+++Microsoft.Extensions.Configuration.CommandLine.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.commandline.dll
+++Microsoft.Extensions.Configuration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.dll
+++Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.environmentvariables.dll
+++Microsoft.Extensions.Configuration.FileExtensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.fileextensions.dll
+++Microsoft.Extensions.Configuration.Ini.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.ini.dll
+++Microsoft.Extensions.Configuration.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.json.dll
+++Microsoft.Extensions.Configuration.KeyPerFile.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.keyperfile.dll
+++Microsoft.Extensions.Configuration.UserSecrets.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.usersecrets.dll
+++Microsoft.Extensions.Configuration.Xml.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.configuration.xml.dll
+++Microsoft.Extensions.DependencyInjection.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.dependencyinjection.abstractions.dll
+++Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.diagnostics.healthchecks.abstractions.dll
+++Microsoft.Extensions.Diagnostics.HealthChecks.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.diagnostics.healthchecks.dll
+++Microsoft.Extensions.FileProviders.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.fileproviders.abstractions.dll
+++Microsoft.Extensions.FileProviders.Composite.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.fileproviders.composite.dll
+++Microsoft.Extensions.FileProviders.Embedded.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.fileproviders.embedded.dll
+++Microsoft.Extensions.FileProviders.Physical.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.fileproviders.physical.dll
+++Microsoft.Extensions.FileSystemGlobbing.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.filesystemglobbing.dll
+++Microsoft.Extensions.Hosting.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.hosting.abstractions.dll
+++Microsoft.Extensions.Hosting.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.hosting.dll
+++Microsoft.Extensions.Http.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.http.dll
+++Microsoft.Extensions.Localization.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.localization.abstractions.dll
+++Microsoft.Extensions.Localization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.localization.dll
+++Microsoft.Extensions.Logging.Abstractions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.abstractions.dll
+++Microsoft.Extensions.Logging.Configuration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.configuration.dll
+++Microsoft.Extensions.Logging.Console.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.console.dll
+++Microsoft.Extensions.Logging.Debug.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.debug.dll
+++Microsoft.Extensions.Logging.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.dll
+++Microsoft.Extensions.Logging.EventLog.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.eventlog.dll
+++Microsoft.Extensions.Logging.EventSource.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.eventsource.dll
+++Microsoft.Extensions.Logging.TraceSource.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.logging.tracesource.dll
+++Microsoft.Extensions.ObjectPool.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.objectpool.dll
+++Microsoft.Extensions.Options.ConfigurationExtensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.options.configurationextensions.dll
+++Microsoft.Extensions.Options.DataAnnotations.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.options.dataannotations.dll
+++Microsoft.Extensions.Options.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.options.dll
+++Microsoft.Extensions.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.primitives.dll
+++Microsoft.Extensions.WebEncoders.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.extensions.webencoders.dll
+++Microsoft.JSInterop.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.jsinterop.dll
+++Microsoft.Net.Http.Headers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.net.http.headers.dll
+++Microsoft.VisualBasic.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.visualbasic.core.dll
+++Microsoft.VisualBasic.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.visualbasic.dll
+++Microsoft.Win32.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.win32.primitives.dll
+++Microsoft.Win32.Registry.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\microsoft.win32.registry.dll
+++mscorlib.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\mscorlib.dll
+++netstandard.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\netstandard.dll
+++System.AppContext.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.appcontext.dll
+++System.Buffers.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.buffers.dll
+++System.Collections.Concurrent.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.collections.concurrent.dll
+++System.Collections.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.collections.dll
+++System.Collections.Immutable.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.collections.immutable.dll
+++System.Collections.NonGeneric.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.collections.nongeneric.dll
+++System.Collections.Specialized.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.collections.specialized.dll
+++System.ComponentModel.Annotations.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.annotations.dll
+++System.ComponentModel.DataAnnotations.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.dataannotations.dll
+++System.ComponentModel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.dll
+++System.ComponentModel.EventBasedAsync.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.eventbasedasync.dll
+++System.ComponentModel.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.primitives.dll
+++System.ComponentModel.TypeConverter.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.componentmodel.typeconverter.dll
+++System.Configuration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.configuration.dll
+++System.Console.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.console.dll
+++System.Core.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.core.dll
+++System.Data.Common.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.data.common.dll
+++System.Data.DataSetExtensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.data.datasetextensions.dll
+++System.Data.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.data.dll
+++System.Diagnostics.Contracts.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.contracts.dll
+++System.Diagnostics.Debug.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.debug.dll
+++System.Diagnostics.EventLog.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.eventlog.dll
+++System.Diagnostics.FileVersionInfo.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.fileversioninfo.dll
+++System.Diagnostics.Process.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.process.dll
+++System.Diagnostics.StackTrace.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.stacktrace.dll
+++System.Diagnostics.TextWriterTraceListener.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.textwritertracelistener.dll
+++System.Diagnostics.Tools.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.tools.dll
+++System.Diagnostics.TraceSource.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.tracesource.dll
+++System.Diagnostics.Tracing.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.diagnostics.tracing.dll
+++System.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.dll
+++System.Drawing.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.drawing.dll
+++System.Drawing.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.drawing.primitives.dll
+++System.Dynamic.Runtime.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.dynamic.runtime.dll
+++System.Formats.Asn1.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.formats.asn1.dll
+++System.Globalization.Calendars.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.globalization.calendars.dll
+++System.Globalization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.globalization.dll
+++System.Globalization.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.globalization.extensions.dll
+++System.IO.Compression.Brotli.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.compression.brotli.dll
+++System.IO.Compression.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.compression.dll
+++System.IO.Compression.FileSystem.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.compression.filesystem.dll
+++System.IO.Compression.ZipFile.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.compression.zipfile.dll
+++System.IO.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.dll
+++System.IO.FileSystem.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.filesystem.dll
+++System.IO.FileSystem.DriveInfo.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.filesystem.driveinfo.dll
+++System.IO.FileSystem.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.filesystem.primitives.dll
+++System.IO.FileSystem.Watcher.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.filesystem.watcher.dll
+++System.IO.IsolatedStorage.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.isolatedstorage.dll
+++System.IO.MemoryMappedFiles.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.memorymappedfiles.dll
+++System.IO.Pipelines.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.pipelines.dll
+++System.IO.Pipes.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.pipes.dll
+++System.IO.UnmanagedMemoryStream.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.io.unmanagedmemorystream.dll
+++System.Linq.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.linq.dll
+++System.Linq.Expressions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.linq.expressions.dll
+++System.Linq.Parallel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.linq.parallel.dll
+++System.Linq.Queryable.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.linq.queryable.dll
+++System.Memory.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.memory.dll
+++System.Net.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.dll
+++System.Net.Http.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.http.dll
+++System.Net.Http.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.http.json.dll
+++System.Net.HttpListener.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.httplistener.dll
+++System.Net.Mail.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.mail.dll
+++System.Net.NameResolution.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.nameresolution.dll
+++System.Net.NetworkInformation.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.networkinformation.dll
+++System.Net.Ping.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.ping.dll
+++System.Net.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.primitives.dll
+++System.Net.Requests.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.requests.dll
+++System.Net.Security.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.security.dll
+++System.Net.ServicePoint.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.servicepoint.dll
+++System.Net.Sockets.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.sockets.dll
+++System.Net.WebClient.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.webclient.dll
+++System.Net.WebHeaderCollection.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.webheadercollection.dll
+++System.Net.WebProxy.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.webproxy.dll
+++System.Net.WebSockets.Client.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.websockets.client.dll
+++System.Net.WebSockets.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.net.websockets.dll
+++System.Numerics.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.numerics.dll
+++System.Numerics.Vectors.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.numerics.vectors.dll
+++System.ObjectModel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.objectmodel.dll
+++System.Reflection.DispatchProxy.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.dispatchproxy.dll
+++System.Reflection.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.dll
+++System.Reflection.Emit.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.emit.dll
+++System.Reflection.Emit.ILGeneration.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.emit.ilgeneration.dll
+++System.Reflection.Emit.Lightweight.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.emit.lightweight.dll
+++System.Reflection.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.extensions.dll
+++System.Reflection.Metadata.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.metadata.dll
+++System.Reflection.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.primitives.dll
+++System.Reflection.TypeExtensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.reflection.typeextensions.dll
+++System.Resources.Reader.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.resources.reader.dll
+++System.Resources.ResourceManager.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.resources.resourcemanager.dll
+++System.Resources.Writer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.resources.writer.dll
+++System.Runtime.CompilerServices.VisualC.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.compilerservices.visualc.dll
+++System.Runtime.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.dll
+++System.Runtime.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.extensions.dll
+++System.Runtime.Handles.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.handles.dll
+++System.Runtime.InteropServices.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.interopservices.dll
+++System.Runtime.InteropServices.RuntimeInformation.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.interopservices.runtimeinformation.dll
+++System.Runtime.Intrinsics.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.intrinsics.dll
+++System.Runtime.Loader.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.loader.dll
+++System.Runtime.Numerics.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.numerics.dll
+++System.Runtime.Serialization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.serialization.dll
+++System.Runtime.Serialization.Formatters.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.serialization.formatters.dll
+++System.Runtime.Serialization.Json.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.serialization.json.dll
+++System.Runtime.Serialization.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.serialization.primitives.dll
+++System.Runtime.Serialization.Xml.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.runtime.serialization.xml.dll
+++System.Security.AccessControl.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.accesscontrol.dll
+++System.Security.Claims.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.claims.dll
+++System.Security.Cryptography.Algorithms.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.algorithms.dll
+++System.Security.Cryptography.Cng.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.cng.dll
+++System.Security.Cryptography.Csp.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.csp.dll
+++System.Security.Cryptography.Encoding.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.encoding.dll
+++System.Security.Cryptography.Primitives.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.primitives.dll
+++System.Security.Cryptography.X509Certificates.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.x509certificates.dll
+++System.Security.Cryptography.Xml.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.cryptography.xml.dll
+++System.Security.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.dll
+++System.Security.Permissions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.permissions.dll
+++System.Security.Principal.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.principal.dll
+++System.Security.Principal.Windows.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.principal.windows.dll
+++System.Security.SecureString.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.security.securestring.dll
+++System.ServiceModel.Web.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.servicemodel.web.dll
+++System.ServiceProcess.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.serviceprocess.dll
+++System.Text.Encoding.CodePages.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.text.encoding.codepages.dll
+++System.Text.Encoding.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.text.encoding.dll
+++System.Text.Encoding.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.text.encoding.extensions.dll
+++System.Text.RegularExpressions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.text.regularexpressions.dll
+++System.Threading.Channels.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.channels.dll
+++System.Threading.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.dll
+++System.Threading.Overlapped.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.overlapped.dll
+++System.Threading.Tasks.Dataflow.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.tasks.dataflow.dll
+++System.Threading.Tasks.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.tasks.dll
+++System.Threading.Tasks.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.tasks.extensions.dll
+++System.Threading.Tasks.Parallel.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.tasks.parallel.dll
+++System.Threading.Thread.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.thread.dll
+++System.Threading.ThreadPool.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.threadpool.dll
+++System.Threading.Timer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.threading.timer.dll
+++System.Transactions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.transactions.dll
+++System.Transactions.Local.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.transactions.local.dll
+++System.ValueTuple.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.valuetuple.dll
+++System.Web.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.web.dll
+++System.Web.HttpUtility.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.web.httputility.dll
+++System.Windows.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.windows.dll
+++System.Windows.Extensions.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.windows.extensions.dll
+++System.Xml.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.dll
+++System.Xml.Linq.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.linq.dll
+++System.Xml.ReaderWriter.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.readerwriter.dll
+++System.Xml.Serialization.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.serialization.dll
+++System.Xml.XDocument.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.xdocument.dll
+++System.Xml.XmlDocument.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.xmldocument.dll
+++System.Xml.XmlSerializer.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.xmlserializer.dll
+++System.Xml.XPath.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.xpath.dll
+++System.Xml.XPath.XDocument.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\system.xml.xpath.xdocument.dll
+++WindowsBase.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\refs\windowsbase.dll
+++unix
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\
+++win
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\
+++win-arm
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\
+++win-arm64
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\
+++win-x64
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x64\
+++win-x86
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x86\
+++pinkJB-core.StaticWebAssets.Manifest.cache
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\staticwebassets\pinkjb-core.staticwebassets.manifest.cache
+++Microsoft.EntityFrameworkCore.Design.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.entityframeworkcore.design\5.0.14\build\netcoreapp3.0\microsoft.entityframeworkcore.design.props
+++Microsoft.NuGet.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++native
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\native\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\native\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x64\native\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x86\native\
+++_ViewImports.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\_viewimports.cshtml.g.cs
+++_ViewStart.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\_viewstart.cshtml.g.cs
+++Microsoft.NET.ILLink.Tasks.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++netcoreapp3.1
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\netcoreapp3.1\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++Microsoft.Data.SqlClient.SNI.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+++Contact.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\contact.cshtml.g.cs
+++Create.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\create.cshtml.g.cs
+++Details.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\details.cshtml.g.cs
+++Index.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\index.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\index.cshtml.g.cs
+++Store.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\store.cshtml.g.cs
+++OrderCompleted.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\ordercompleted.cshtml.g.cs
+++ShoppingCart.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\shoppingcart.cshtml.g.cs
+++_CreateItem.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_createitem.cshtml.g.cs
+++_Layout.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_layout.cshtml.g.cs
+++_ValidationScriptsPartial.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_validationscriptspartial.cshtml.g.cs
+++Error.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\error.cshtml.g.cs
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++Microsoft.Net.CoreRuntime.ImportBefore.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
+++Microsoft.NetNative.ImportBefore.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
+++pinkJB-core.csproj.user
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\pinkjb-core.csproj.user
+++Microsoft.NET.props
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.Net.CoreRuntime.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
+++Microsoft.NetNative.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.visualstudio.azure.fabric.serviceproject.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\5.0.13\buildtransitive\net5.0\microsoft.aspnetcore.mvc.razor.runtimecompilation.targets
+++dotnet-aspnet-codegenerator-design.exe
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+++Microsoft.DesktopBridge.Common.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+++Microsoft.Docker.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\service fabric tools\microsoft.visualstudio.azure.fabric.serviceproject.targets
+++Microsoft.Web.IISSupport.targets
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++Default.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\shoppingcartsummary\default.cshtml.g.cs

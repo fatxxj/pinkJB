@@ -443,3 +443,5 @@ C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Orders\OrderCompleted.cshtml.g.cs
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Shared\_CreateItem.cshtml.g.cs

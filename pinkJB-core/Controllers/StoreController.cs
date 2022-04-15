@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using pinkJB_core.Data.ViewModels;
 using pinkJB_core.Models;
 using pinkJB_core.Services;
 
@@ -25,7 +26,8 @@ namespace pinkJB_core.Controllers
         {
             return "This is welcome action method";
         }
-        
+
+
 
     }
 }

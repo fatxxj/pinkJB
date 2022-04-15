@@ -1,6 +1,7 @@
 ﻿using eTickets.Data.Base;
 using Microsoft.EntityFrameworkCore;
 using pinkJB_core.Data;
+using pinkJB_core.Data.ViewModels;
 using pinkJB_core.Models;
 using System.Threading.Tasks;
 
@@ -14,6 +15,25 @@ namespace pinkJB_core.Services
         {
             _context = context;
         }
+
+        public async Task AddNewProductAsync(NewProductVM data)
+        {
+            var newProduct = new Product()
+            {
+                ProductName = data.ProductName,
+                ProductDescription = data.ProductDescription,
+                ProductPrice = data.ProductPrice,
+                ProductImage = data.ProductImage,
+                amountLeft = data.amountLeft
+                
+            };
+            await _context.Products.AddAsync(newProduct);
+            await _context.SaveChangesAsync();
+
+            
+
+        }
+
 
         public async Task<Product> getByIdAsync(int id)
         {

@@ -1,4 +1,5 @@
 ﻿using pinkJB_core.Data.Base;
+using pinkJB_core.Data.ViewModels;
 using pinkJB_core.Models;
 using System;
 using System.Linq.Expressions;
@@ -11,5 +12,6 @@ namespace pinkJB_core.Services
         Task<Product> getByIdAsync(int id);
         Task<Product> getProductByNameAsync(string name);
         //Task<Product> GetAllAsync(params Expression<Func<T, object>>[] includeProperties);
+        Task AddNewProductAsync(NewProductVM data);
     }
 }

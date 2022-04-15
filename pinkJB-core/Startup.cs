@@ -42,6 +42,7 @@ namespace pinkJB_core
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
             services.AddScoped<IOrdersService, OrdersService>();
+            
 
             services
                 .AddControllersWithViews()

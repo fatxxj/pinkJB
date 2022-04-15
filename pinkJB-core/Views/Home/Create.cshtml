@@ -1,0 +1,113 @@
+﻿@using pinkJB_core.Data.ViewModels
+@model NewProductVM
+
+@{
+    ViewData["Title"] = "Create a new product";
+}
+
+<div class="row">
+    <br /><br /><br />
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center">
+
+        <h2 class="customFont">Create a new movie</h2>
+        <br />
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 customFont">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group customFont">
+                                <label asp-for="ProductName" class="control-label" style="font-weight= none;"></label>
+                                <input asp-for="ProductName" class="form-control" />
+                                <span asp-validation-for="ProductName" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ProductPrice" class="control-label"></label>
+                                <input asp-for="ProductPrice" class="form-control" />
+                                <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductImage" class="control-label"></label>
+                                <input asp-for="ProductImage" class="form-control" />
+                                <span asp-validation-for="ProductImage" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+
+                            <div class="form-group">
+                                <label asp-for="amountLeft" class="control-label"></label>
+                                <input asp-for="amountLeft" class="form-control" />
+                                <span asp-validation-for="amountLeft" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductMaterial" class="control-label"></label>
+                                <input asp-for="ProductMaterial" class="form-control" />
+                                <span asp-validation-for="ProductMaterial" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ProductDescription" class="control-label"></label>
+                                <textarea asp-for="ProductDescription" class="form-control customForm"></textarea>
+                                <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4  text-center" id="ImageHere">
+                        <img width="100%" id="ImageUrlPreview" />
+
+                    </div>
+                    <div class="col-md-4"></div>
+
+                    <br /><br />
+
+                    <div class="row text-center">
+
+
+
+                <div class="form-group text-center">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 text-center">
+                        
+                        <br /><br />
+                        <input type="submit" value="Create" class="btn btn-outline-primary customFont float-right buttoniTeStore " style="font-size: 17px; color: deeppink; border: 1px solid pink " />
+                        <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  asp-action="Store">Show all</a>
+                   
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+
+                </form>
+
+            </div>
+            <br /><br>
+            
+
+           
+            <div class="col-md-2"></div>
+
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+@section Scripts{
+<script>
+
+
+    $("#ProductImage").on("change", function(){
+        var url = $(this).val();
+        $("#ImageUrlPreview").attr('src',url)
+
+    })
+</script>
+}
