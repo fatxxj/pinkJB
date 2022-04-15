@@ -2,7 +2,7 @@
 @model NewProductVM
 
 @{
-    ViewData["Title"] = "Create a new product";
+    ViewData["Title"] = "Update product";
 }
 
 <div class="row">
@@ -10,12 +10,12 @@
     <div class="col-md-2"></div>
     <div class="col-md-8 text-center">
 
-        <h2 class="customFont">Create a new product</h2>
+        <h2 class="customFont">Update product</h2>
         <br />
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 customFont">
-                <form asp-action="Create">
+                <form asp-action="Edit">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="row">
                         <div class="col-md-6">
@@ -78,9 +78,9 @@
                     <div class="col-md-6 text-center">
                         
                         <br /><br />
-                        <input type="submit" value="Create" class="btn btn-outline-primary customFont float-right buttoniTeStore " style="font-size: 17px; color: deeppink; border: 1px solid pink " />
+                        <input type="submit" value="Update" class="btn btn-outline-primary customFont float-right buttoniTeStore " style="font-size: 17px; color: deeppink; border: 1px solid pink " />
                         <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  asp-action="Store">Show all</a>
-                   
+                        <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  >Delete</a>
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -102,11 +102,17 @@
 
 @section Scripts{
 <script>
+    $(document).ready(function(){
+
+       var url= $("#ProductImage").val()
+        $("#ImageUrlPreview").attr('src',url);
+   
+    })
 
 
     $("#ProductImage").on("change", function(){
         var url = $(this).val();
-        $("#ImageUrlPreview").attr('src',url)
+        $("#ImageUrlPreview").attr('src',url);
 
     })
 </script>

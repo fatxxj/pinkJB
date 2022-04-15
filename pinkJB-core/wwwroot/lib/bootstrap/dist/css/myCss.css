@@ -5,3 +5,12 @@
 .buttoniTeStore:hover {
     box-shadow: 0 3px 3px 3px pink, 0 3px 3px 3px pink;
 }
+
+.customEditButton {
+    color: white;
+    font-size: 16px;
+}
+    .customEditButton:hover {
+        font-size: 19px;
+        color: white;
+    }

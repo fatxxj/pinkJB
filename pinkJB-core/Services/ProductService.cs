@@ -34,6 +34,28 @@ namespace pinkJB_core.Services
 
         }
 
+       
+
+        public async Task UpdateProductAsync(NewProductVM data)
+        {
+
+            var dbProduct = await _context.Products.FirstOrDefaultAsync(n=>n.Id == data.Id);
+            if(dbProduct!=null)
+            {
+
+                dbProduct.ProductName = data.ProductName;
+                dbProduct.ProductDescription = data.ProductDescription;
+                dbProduct.ProductPrice = data.ProductPrice;
+                dbProduct.ProductImage = data.ProductImage;
+                dbProduct.ProductMaterial = data.ProductMaterial;
+                    dbProduct.amountLeft = data.amountLeft;
+                await _context.SaveChangesAsync();
+
+            }
+
+           
+        }
+
 
         public async Task<Product> getByIdAsync(int id)
         {

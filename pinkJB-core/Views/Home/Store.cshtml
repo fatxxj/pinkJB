@@ -1,4 +1,4 @@
-﻿@using System.Globalization
+﻿zxxz@using System.Globalization
 @using System;
 
 @model IEnumerable<Product>
@@ -25,13 +25,15 @@
 
                     <div class="row  ">
                         <div class="col-md-12">
-                            <div class="card-header text-white bg-pinkJB text-center" style=" background-color: deeppink">
+                            <div class="card-header text-white bg-pinkJB text-center" style=" background-color: deeppink" >
                            
                                 <h3 class="card-title customFont text-white" style="color: white">
-                                    @item.ProductName
+                                    @item.ProductName &nbsp;
                                     
+                                    <a class="text-white float-right customEditButton" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square" ></i> </a>
                                    
                                 </h3>
+                                
                             </div>
                         </div>
                         <div class="col-md-6">

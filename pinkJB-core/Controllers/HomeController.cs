@@ -74,5 +74,41 @@ namespace pinkJB_core.Controllers
 
             return RedirectToAction(nameof(Store));
         }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var productDetails = await _service.GetByIdAsync(id);
+            if(productDetails==null)
+                return View("NotFound");
+
+            var response = new NewProductVM()
+            {
+                Id = productDetails.Id,
+                ProductName = productDetails.ProductName,
+                ProductDescription = productDetails.ProductDescription,
+                ProductPrice = productDetails.ProductPrice,
+                ProductImage = productDetails.ProductImage,
+                ProductMaterial = productDetails.ProductMaterial,
+                amountLeft = productDetails.amountLeft
+            };
+            return View(response);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, NewProductVM product)
+        {
+            if (id != product.Id) 
+                return View("NotFound");
+            if (!ModelState.IsValid)
+            {
+                return View(product);
+            }
+            await _service.UpdateProductAsync(product);
+
+            return RedirectToAction(nameof(Store));
+        }
+
+
+       
+
     }
 }

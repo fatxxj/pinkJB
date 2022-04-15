@@ -13,5 +13,6 @@ namespace pinkJB_core.Services
         Task<Product> getProductByNameAsync(string name);
         //Task<Product> GetAllAsync(params Expression<Func<T, object>>[] includeProperties);
         Task AddNewProductAsync(NewProductVM data);
+        Task UpdateProductAsync(NewProductVM data);
     }
 }
