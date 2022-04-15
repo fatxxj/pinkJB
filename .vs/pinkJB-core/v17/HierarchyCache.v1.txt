@@ -3,11 +3,11 @@ i:{00000000-0000-0000-0000-000000000000}:pinkJB-core.sln
 ++pinkJB-core
 i:{00000000-0000-0000-0000-000000000000}:pinkJB-core
 ++Connected Services 
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1441
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1445
 ++Dependencies
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1440
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1444
 ++Imports
-i:{c4894090-b31c-412d-a675-344ba282391f}:>644
+i:{c4894090-b31c-412d-a675-344ba282391f}:>646
 ++Properties
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\
 ++wwwroot
@@ -15,8 +15,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++css
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\
-++site.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\site.css
 ++js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\
@@ -71,6 +69,12 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\controllers\storecontroller.cs
 ++Data
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\
+++EntityBaseRepository.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\entitybaserepository.cs
+++IEntityBase.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybase.cs
+++IEntityBaseRepository.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybaserepository.cs
 ++Cart
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\
 ++Enums
@@ -163,7 +167,7 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Startup.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\startup.cs
 ++SQL Server Express LocalDB (Local) (ConnectionStrings:pinkJB_coreContext)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1467
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1471
 ++Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:analyzers
 ++Frameworks
@@ -181,6 +185,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.json
 ++serviceDependencies.local.json.user
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.local.json.user
+++site.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\site.css
 ++site.js
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\site.js
 ++bootstrap.css.map
@@ -207,12 +213,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Debug
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\
-++EntityBaseRepository.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\entitybaserepository.cs
-++IEntityBase.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybase.cs
-++IEntityBaseRepository.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\base\ientitybaserepository.cs
 ++ShoppingCart.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\shoppingcart.cs
 ++ProductCategory.cs
@@ -278,25 +278,25 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Microsoft.NETCore.App
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\microsoft.netcore.app
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1462
-++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.13)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1458
-++Microsoft.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1459
-++Microsoft.EntityFrameworkCore.Design (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1461
-++Microsoft.EntityFrameworkCore.SqlServer (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1460
-++Microsoft.EntityFrameworkCore.SqlServer.Design (1.1.6)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1457
-++Microsoft.EntityFrameworkCore.Tools (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1464
-++Microsoft.EntityFrameworkCore.UnitOfWork (3.1.0)
 i:{c4894090-b31c-412d-a675-344ba282391f}:>1466
-++Microsoft.Graph (4.22.0)
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.13)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1462
+++Microsoft.EntityFrameworkCore (5.0.14)
 i:{c4894090-b31c-412d-a675-344ba282391f}:>1463
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+++Microsoft.EntityFrameworkCore.Design (5.0.14)
 i:{c4894090-b31c-412d-a675-344ba282391f}:>1465
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.12)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1464
+++Microsoft.EntityFrameworkCore.SqlServer.Design (1.1.6)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1461
+++Microsoft.EntityFrameworkCore.Tools (5.0.12)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1468
+++Microsoft.EntityFrameworkCore.UnitOfWork (3.1.0)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1470
+++Microsoft.Graph (4.22.0)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1467
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1469
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.props
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
@@ -1538,3 +1538,12 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studi
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
 ++Default.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\shoppingcartsummary\default.cshtml.g.cs
+++Create - Copy.cshtml
+++Edit.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\edit.cshtml
+++Edit.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\edit.cshtml.g.cs
+++Delete.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\delete.cshtml
+++Delete.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\delete.cshtml.g.cs

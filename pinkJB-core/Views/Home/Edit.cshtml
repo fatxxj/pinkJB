@@ -73,26 +73,26 @@
 
 
 
-                <div class="form-group text-center">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 text-center">
-                        
-                        <br /><br />
-                        <input type="submit" value="Update" class="btn btn-outline-primary customFont float-right buttoniTeStore " style="font-size: 17px; color: deeppink; border: 1px solid pink " />
-                        <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  asp-action="Store">Show all</a>
-                        <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  >Delete</a>
+                        <div class="form-group text-center">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 text-center">
+
+                                <br /><br />
+                                <input type="submit" value="Update" class="btn btn-outline-primary customFont float-right buttoniTeStore " style="font-size: 17px; color: deeppink; border: 1px solid pink " />
+                                <a class="btn btn-outline-primary customFont float-right buttoniTeStore " style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink " asp-action="Store">Show all</a>
+                                <a class="btn btn-outline-primary customFont float-right buttoniTeStore deleteButton" style="background-color:#EFEFEF;  font-size: 17px; color: deeppink; border: 1px solid pink "  data-id="@Model.Id" >Delete</a>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
                     </div>
-                    <div class="col-md-3"></div>
-                </div>
-            </div>
 
                 </form>
 
             </div>
             <br /><br>
-            
 
-           
+
+
             <div class="col-md-2"></div>
 
         </div>
@@ -102,18 +102,31 @@
 
 @section Scripts{
 <script>
-    $(document).ready(function(){
+          $(document).ready(function(){
+                    $(".deleteButton").on("click", function(){
+                        var id = $(this).data('id');
+            $.ajax({
+    type:'POST',
+    url: '@Url.Action("DeleteConfirmed","Home")' + '/' + id,
+    cache: false,
+    success: function(html){
+      $("#results").append(html);
+      window.location.href = "/Home/Store";
+    }
+    });
+        })
+             var url= $("#ProductImage").val()
+              $("#ImageUrlPreview").attr('src',url);
 
-       var url= $("#ProductImage").val()
-        $("#ImageUrlPreview").attr('src',url);
-   
-    })
+
+          })
 
 
-    $("#ProductImage").on("change", function(){
-        var url = $(this).val();
-        $("#ImageUrlPreview").attr('src',url);
+          $("#ProductImage").on("change", function(){
 
-    })
+              var url = $(this).val();
+              $("#ImageUrlPreview").attr('src',url);
+
+          })
 </script>
 }

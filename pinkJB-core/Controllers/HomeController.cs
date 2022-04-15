@@ -106,9 +106,34 @@ namespace pinkJB_core.Controllers
 
             return RedirectToAction(nameof(Store));
         }
+        public async Task<IActionResult> Delete(int id)
+        {
+            var productDetails = await _service.GetByIdAsync(id);
+            if (productDetails == null)
+                return Json(false);
+           await _service.DeleteAsync(id);
+            return RedirectToAction(nameof(Store));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+           
+            var productDetails =  await _service.GetByIdAsync(id);
+            if (productDetails == null)
+                return View();
+           
+            await _service.DeleteAsync(id);
 
 
-       
+
+            //return Json(new { message = "Deleted successfully!"});
+
+            return RedirectToAction("Store", "Home");
+
+        }
+
+
+
 
     }
 }

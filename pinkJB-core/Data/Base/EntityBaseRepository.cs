@@ -29,10 +29,19 @@ namespace eTickets.Data.Base
 
         public async Task DeleteAsync(int id)
         {
+
+            var _c = _context.Products.Find(id);
+            _context.Products.Remove(_c);
+            _context.Entry(_c).State = EntityState.Deleted;
+            _context.SaveChanges();
+
+            /*
             var entity = await _context.Set<T>().FirstOrDefaultAsync(n => n.Id == id);
             EntityEntry entityEntry = _context.Entry<T>(entity);
             entityEntry.State = EntityState.Deleted;
+            _context.Remove(entity);
             await _context.SaveChangesAsync();
+            */
         }
 
         public async Task<IEnumerable<T>> GetAllAsync() 

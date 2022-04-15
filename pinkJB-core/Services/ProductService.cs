@@ -34,7 +34,6 @@ namespace pinkJB_core.Services
 
         }
 
-       
 
         public async Task UpdateProductAsync(NewProductVM data)
         {
