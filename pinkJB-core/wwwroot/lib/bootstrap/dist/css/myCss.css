@@ -14,3 +14,43 @@
         font-size: 19px;
         color: white;
     }
+
+    #profile-btn a{
+        color: deeppink;
+        text-decoration: none;
+    }
+
+        #profile-btn a:hover {
+            font-style: italic
+            
+        }
+.btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+}
+
+.profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+
+
+.cardbody-color {
+    background-color: #FFEEEC;
+}
+
+a {
+    text-decoration: none;
+}
+
+#LogIN{
+    background-color: deeppink;
+    color: white;
+    font-size: 18px;
+}
+
+#LogIN:hover {
+    box-shadow: 0 3px 3px 3px pink, 0 3px 3px 3px pink;
+}

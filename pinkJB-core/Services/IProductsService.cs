@@ -15,5 +15,7 @@ namespace pinkJB_core.Services
         Task AddNewProductAsync(NewProductVM data);
         Task UpdateProductAsync(NewProductVM data);
 
+
+
     }
 }

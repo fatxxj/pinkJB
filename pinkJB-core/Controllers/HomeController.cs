@@ -8,9 +8,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using pinkJB_core.Services;
 using pinkJB_core.Data.ViewModels;
+using System.Globalization;
+using Syncfusion.HtmlConverter;
+using Syncfusion.Pdf;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace pinkJB_core.Controllers
 {
+    
+    
+
+
     public class HomeController : Controller
     {
         private readonly IProductsService _service;
@@ -20,7 +29,10 @@ namespace pinkJB_core.Controllers
             _service = service;
         }
 
-        
+       
+
+
+
         public IActionResult Index()
         {
             return View();
@@ -63,6 +75,11 @@ namespace pinkJB_core.Controllers
             return View();
         }
 
+        public IActionResult CreateOrLogIn()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(NewProductVM product)
         {
@@ -74,6 +91,8 @@ namespace pinkJB_core.Controllers
 
             return RedirectToAction(nameof(Store));
         }
+
+
 
         public async Task<IActionResult> Edit(int id)
         {
@@ -131,7 +150,22 @@ namespace pinkJB_core.Controllers
             return RedirectToAction("Store", "Home");
 
         }
+        public async Task<IActionResult> Filter(string searchString)
+        {
+            var allProducts = await _service.GetAllAsync();
+            
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var filteredResult=allProducts.Where(n=>n.ProductName.Contains(searchString)||n.ProductDescription.Contains(searchString)).ToList();
+                return View("Store",filteredResult);
+            }
+            
+                return View("Store",allProducts);
+        }
 
+
+
+    
 
 
 

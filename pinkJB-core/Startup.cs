@@ -18,6 +18,8 @@ using pinkJB_core.Services;
 using pinkJB_core.Data.Cart;
 using System;
 using System.Globalization;
+using DinkToPdf.Contracts;
+using DinkToPdf;
 
 namespace pinkJB_core
 {
@@ -42,7 +44,7 @@ namespace pinkJB_core
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
             services.AddScoped<IOrdersService, OrdersService>();
-            
+            services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
             services
                 .AddControllersWithViews()
@@ -80,7 +82,7 @@ namespace pinkJB_core
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             //Seed database
-            AppDbInitializer.Seed(app);
+            //AppDbInitializer.Seed(app);
         }
 
       

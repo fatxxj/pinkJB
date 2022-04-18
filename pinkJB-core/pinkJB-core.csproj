@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
@@ -22,17 +23,27 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.UnitOfWork" Version="3.1.0" />
     <PackageReference Include="Microsoft.Graph" Version="4.22.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core" Version="20.1.0.48" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Base\" />
-    <Folder Include="Images\" />
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\facebook.png" />
+    <None Include="wwwroot\lib\242515766_267146348723973_8030943319972783254_n.jpg" />
     <None Include="wwwroot\instagram.png" />
     <None Include="wwwroot\telephone-call.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\..\..\lib\QtBinariesLinux\libQt5Qml.so.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\..\..\lib\QtBinariesLinux\libQt5Qml.so.5" />
   </ItemGroup>
 
 </Project>

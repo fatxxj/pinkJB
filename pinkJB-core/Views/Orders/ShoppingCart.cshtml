@@ -55,13 +55,18 @@
         </table>
         <div class="text-center">
             <div class="">
+                @if (Model.ShoppingCart.ShoppingCartItems.Count>=1)
+                    {
                 <button class="btn btn-outline-danger buttoniTeCartSummary" style="background-color: deeppink;   ">
-
-                
-                <a  class="btn-outline-primary customFont card-link" style="color: white; text-decoration:none;" asp-controller="Orders" asp-action="CompleteOrder">
+                    
+                        <a  class="btn-outline-primary customFont card-link" style="color: white; text-decoration:none;" asp-controller="Orders" asp-action="CompleteOrder">
                     Complete order
                 </a>
                 </button>
+                   
+                    }
+
+                
                 <button  class="btn btn-outline-danger buttoniTeCartSummary"  style="background-color: deeppink; ">
 
                 
