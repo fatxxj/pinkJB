@@ -27,6 +27,13 @@ using pinkJB_core.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\Orders\ShoppingCart.cshtml"
 using pinkJB_core.Data.ViewModels;
 
@@ -34,7 +41,7 @@ using pinkJB_core.Data.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d2e695ce31d6b8237923edd1b2305b80510cf855", @"/Views/Orders/ShoppingCart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"faf9834a23f8a7cdf549bb93cfbdfd55e76b1ed1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9340fe1a2c282c1708352d8fc47786dbe9a4f397", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Orders_ShoppingCart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShoppingCartVM>
     #nullable disable
@@ -146,7 +153,7 @@ using pinkJB_core.Data.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                        <td class=\"align-middle\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85510093", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85510289", async() => {
                 WriteLiteral("  \r\n                                <i class=\"bi bi-cart-dash\"></i>\r\n                            ");
             }
             );
@@ -180,7 +187,7 @@ using pinkJB_core.Data.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            |\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85512777", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85512973", async() => {
                 WriteLiteral("  \r\n                                <i class=\"bi bi-cart-plus\"></i>\r\n                            ");
             }
             );
@@ -242,7 +249,7 @@ using pinkJB_core.Data.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("                <button class=\"btn btn-outline-danger buttoniTeCartSummary\" style=\"background-color: deeppink;   \">\r\n                    \r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85516923", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85517119", async() => {
                 WriteLiteral("\r\n                    Complete order\r\n                ");
             }
             );
@@ -271,7 +278,7 @@ using pinkJB_core.Data.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                \r\n                <button  class=\"btn btn-outline-danger buttoniTeCartSummary\"  style=\"background-color: deeppink; \">\r\n\r\n                \r\n                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85518961", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2e695ce31d6b8237923edd1b2305b80510cf85519157", async() => {
                 WriteLiteral("\r\n                    Add more items\r\n                ");
             }
             );

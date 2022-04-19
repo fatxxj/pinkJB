@@ -26,8 +26,15 @@ using pinkJB_core.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3fd92d1b6cccd91b2dd60bbb5a727991b5aa5c7e", @"/Views/Shared/_CreateItem.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"faf9834a23f8a7cdf549bb93cfbdfd55e76b1ed1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9340fe1a2c282c1708352d8fc47786dbe9a4f397", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__CreateItem : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<string>
     #nullable disable
@@ -60,7 +67,7 @@ using pinkJB_core.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<div style=\"position: fixed\" right:25px; bottom: 25px\" class=\"text-white\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fd92d1b6cccd91b2dd60bbb5a727991b5aa5c7e4328", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fd92d1b6cccd91b2dd60bbb5a727991b5aa5c7e4524", async() => {
                 WriteLiteral("\r\n        <i class=\"bi bi-plus-circle\"></i> Add new\r\n    ");
             }
             );

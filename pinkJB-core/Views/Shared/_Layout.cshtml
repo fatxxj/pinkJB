@@ -46,14 +46,23 @@
                     
                     <ul class="text-end" style="display: inline-block; list-style-type:none">
                         
-                       
-                        <li style="color: pink">
-                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Home" asp-action="CreateOrLogIn" style="margin-top: 15px; text-decoration: none; color: pink">
+                       @*                        <li style="color: pink; display: inline">
+                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Login" style="margin-top: 15px; text-decoration: none; color: pink">
                                 
                                  @Html.ActionLink("User center", "Login", "Account")
                             </button>
+
                             
+                            
+                                <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Logout" style="margin-top: 15px; text-decoration: none; color: pink">
+                                <i class="bi bi-box-arrow-right"></i>
+                                 @Html.ActionLink("Log out", "Logout", "Account")
+                            </button>
+                            
+
                         </li>
+                        *@
+                        <partial name="_Identity.cshtml" />
                     </ul>
 
                     <ul class="text-end" style="display: inline-block; list-style-type:none">

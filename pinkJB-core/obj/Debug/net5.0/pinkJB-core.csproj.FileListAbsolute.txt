@@ -576,3 +576,6 @@ C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\Syncfusion.
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\Syncfusion.Licensing.dll
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\Syncfusion.Pdf.Portable.dll
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs

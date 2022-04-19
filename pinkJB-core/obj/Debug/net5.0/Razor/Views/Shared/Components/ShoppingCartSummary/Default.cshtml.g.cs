@@ -26,8 +26,15 @@ using pinkJB_core.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a3933337fb7c382a47c38e1770847088c3134776", @"/Views/Shared/Components/ShoppingCartSummary/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"faf9834a23f8a7cdf549bb93cfbdfd55e76b1ed1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9340fe1a2c282c1708352d8fc47786dbe9a4f397", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_ShoppingCartSummary_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<int>
     #nullable disable
@@ -69,7 +76,7 @@ using pinkJB_core.Models;
 #line hidden
 #nullable disable
             WriteLiteral("<li class=\"nav-item\" style=\"list-style-type: none\">\r\n    <h3 class=\"customFont\" style=\"color: white\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a3933337fb7c382a47c38e1770847088c31347764998", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a3933337fb7c382a47c38e1770847088c31347765194", async() => {
                 WriteLiteral("\r\n        <i class=\"bi bi-cart4 bi-4x\" style=\"width: 40px;\"></i>");
 #nullable restore
 #line 7 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\Shared\Components\ShoppingCartSummary\Default.cshtml"

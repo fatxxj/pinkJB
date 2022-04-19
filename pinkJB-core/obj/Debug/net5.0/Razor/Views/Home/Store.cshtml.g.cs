@@ -26,6 +26,13 @@ using pinkJB_core.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\Views\Home\Store.cshtml"
 using System.Globalization;
 
@@ -40,7 +47,7 @@ using System;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bac0e07a0d9b07ec255bb3fc6dd021d5f6df172", @"/Views/Home/Store.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"faf9834a23f8a7cdf549bb93cfbdfd55e76b1ed1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9340fe1a2c282c1708352d8fc47786dbe9a4f397", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Store : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Product>>
     #nullable disable
@@ -95,9 +102,9 @@ using System;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    <br /><br /><br />\r\n    <h1 class=\"customFont\" style=\"font-size: 65px;\">Pink <b><i>JB</i></b></h1>\r\n\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df1728697", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df1728893", async() => {
                 WriteLiteral("\r\n                    <input name=\"searchString\" type=\"text\" class=\"form-control\" placeholder=\"Search for a product...\" aria-label=\"Recipient\'s username\" aria-describedby=\"button-addon2\">\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df1729177", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df1729373", async() => {
                     WriteLiteral("<i class=\"bi bi-search\"></i>");
                 }
                 );
@@ -166,7 +173,7 @@ using System;
 #line hidden
 #nullable disable
             WriteLiteral(" &nbsp;\r\n                                    \r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17213616", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17213812", async() => {
                 WriteLiteral("<i class=\"bi bi-pencil-square\" ></i> ");
             }
             );
@@ -205,7 +212,7 @@ using System;
                         </div>
                         <div class=""col-md-6"">
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17216201", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17216397", async() => {
                 WriteLiteral("\r\n                                <img");
                 BeginWriteAttribute("src", " src=\"", 2015, "\"", 2039, 1);
 #nullable restore
@@ -300,7 +307,7 @@ WriteAttributeValue("", 2081, item.ProductName, 2081, 17, false);
                             <div class=""card-footer "">
                                 <p class=""card-text customFont "" style=""font-size: 19px;"">
                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17221518", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17221714", async() => {
                 WriteLiteral("\r\n                                        <i class=\"bi bi-eye-fill\"></i> Show Details\r\n                                    ");
             }
             );
@@ -333,7 +340,7 @@ WriteAttributeValue("", 2081, item.ProductName, 2081, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    \r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17224163", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bac0e07a0d9b07ec255bb3fc6dd021d5f6df17224359", async() => {
                 WriteLiteral("\r\n                                        <i class=\"bi bi-cart\"></i> Add to card\r\n                                    ");
             }
             );

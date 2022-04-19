@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager;
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <li style="color: pink; display: inline">
+                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Login" style="margin-top: 15px; text-decoration: none; color: pink">
+                                
+                                 @Html.ActionLink("Login", "Login", "Account")
+                                 <i class="bi bi-box-arrow-in-right"></i>
+                            </button>
+
+                            @*
+                            
+                                <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Logout" style="margin-top: 15px; text-decoration: none; color: pink">
+                                <i class="bi bi-box-arrow-right"></i>
+                                 @Html.ActionLink("Log out", "Logout", "Account")
+                            </button>
+                            *@
+
+    </li>
+}
+else
+{
+       <li style="color: pink; display: inline">
+                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Login" style="margin-top: 15px; text-decoration: none; color: pink">
+                              
+                                 @Html.ActionLink("Your profile", "Index", "Orders")
+                                   <i class="bi bi-person-lines-fill"></i>
+                            </button>
+
+                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Logout" style="margin-top: 15px; text-decoration: none; color: pink">
+                                
+                                 @Html.ActionLink("Log out", "Logout", "Account")
+                                 <i class="bi bi-box-arrow-right"></i>
+                            </button>
+                            
+                            
+
+    </li>
+}
+
