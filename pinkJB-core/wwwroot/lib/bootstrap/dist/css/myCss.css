@@ -45,12 +45,13 @@ a {
     text-decoration: none;
 }
 
-#LogIN{
+.LogIN{
     background-color: deeppink;
     color: white;
     font-size: 18px;
 }
 
-#LogIN:hover {
+.LogIN:hover {
     box-shadow: 0 3px 3px 3px pink, 0 3px 3px 3px pink;
+    color: white;
 }

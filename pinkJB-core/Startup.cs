@@ -20,6 +20,7 @@ using System;
 using System.Globalization;
 using DinkToPdf.Contracts;
 using DinkToPdf;
+using pinkJB_core.Models;
 
 namespace pinkJB_core
 {
@@ -45,6 +46,17 @@ namespace pinkJB_core
             services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
             services.AddScoped<IOrdersService, OrdersService>();
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
+            //auth - aur
+            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            services.AddMemoryCache();
+            services.AddSession();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme=CookieAuthenticationDefaults.AuthenticationScheme;
+
+            });
+
 
             services
                 .AddControllersWithViews()
@@ -73,6 +85,8 @@ namespace pinkJB_core
 
             app.UseRouting();
             app.UseSession();
+            //auth and aur
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -82,7 +96,8 @@ namespace pinkJB_core
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             //Seed database
-            //AppDbInitializer.Seed(app);
+             AppDbInitializer.Seed(app);
+            //AppDbInitializer.SeedUsersAndRolesAsync(app).Wait();
         }
 
       

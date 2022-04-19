@@ -75,10 +75,7 @@ namespace pinkJB_core.Controllers
             return View();
         }
 
-        public IActionResult CreateOrLogIn()
-        {
-            return View();
-        }
+        
 
         [HttpPost]
         public async Task<IActionResult> Create(NewProductVM product)

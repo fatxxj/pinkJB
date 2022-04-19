@@ -1,26 +1,29 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
+using pinkJB_core.Data.Static;
 using pinkJB_core.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace pinkJB_core.Data
 {
     public class AppDbInitializer
     {
 
-         public static void Seed(IApplicationBuilder applicaitonBuilder)
-           {
+        public static void Seed(IApplicationBuilder applicaitonBuilder)
+        {
 
-               using (var serviceScope = applicaitonBuilder.ApplicationServices.CreateScope())
-               {
-                   var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
-                   context.Database.EnsureCreated();
+            using (var serviceScope = applicaitonBuilder.ApplicationServices.CreateScope())
+            {
+                var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
+                context.Database.EnsureCreated();
 
-                   //Products
-                   if (!context.Products.Any())
-                   {
-                       context.Products.AddRange(new List<Product>()
+                //Products
+                if (!context.Products.Any())
+                {
+                    context.Products.AddRange(new List<Product>()
                        {
                            new Product
                        {
@@ -56,12 +59,66 @@ namespace pinkJB_core.Data
 
 
                        });
-                       context.SaveChanges();
-                   }
-               }
+                    context.SaveChanges();
+                }
+            }
 
-        
-           }
+        }
+        public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
+        {
+            using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
+            {
+                //roles
+                var roleManager = serviceScope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
+
+                if (!await roleManager.RoleExistsAsync(UserRoles.User))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.User));
+
+                //users
+                var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                string adminUserEmail = "admin@pinkJb.com";
+                var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
+                if(adminUser==null)
+                {
+                    var newAdminUser = new ApplicationUser()
+                    {
+                        FullName = "Admin user",
+                        UserName = "Admin",
+                        Email = adminUserEmail,
+                        EmailConfirmed = true
+
+
+                    };
+                    await userManager.CreateAsync(newAdminUser, "BufiBufi1234");
+                    await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
+
+                }
+
+
+                string appUserEmail = "user@pinkJb.com";
+                var appUser = await userManager.FindByEmailAsync(adminUserEmail);
+                if (appUser == null)
+                {
+                    var newAppUser = new ApplicationUser()
+                    {
+                        FullName = "Application user",
+                        UserName = "bufiUser",
+                        Email = appUserEmail,
+                        EmailConfirmed = true
+
+
+                    };
+                    await userManager.CreateAsync(newAppUser, "BufiBufi1234");
+                    await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
+
+                }
+            }
+        }
+
+
+
     }
 
 }
