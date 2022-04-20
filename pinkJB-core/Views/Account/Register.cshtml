@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "Register your account";
 }
-@if (User.Identity.IsAuthenticated && User.IsInRole("USER"))
+@if (!User.Identity.IsAuthenticated)
 {
     <div class="row">
         <div class="container">
