@@ -34,8 +34,11 @@
                            
                                 <h3 class="card-title customFont text-white" style="color: white">
                                     @item.ProductName &nbsp;
-                                    
-                                    <a class="text-white float-right customEditButton" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square" ></i> </a>
+                                        @if(User.Identity.IsAuthenticated && User.IsInRole("ADMIN"))
+                                        {
+                                            <a class="text-white float-right customEditButton" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square" ></i> </a>
+                                        }
+                                        
                                    
                                 </h3>
                                 

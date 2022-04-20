@@ -4,6 +4,92 @@
 @{
     ViewData["Title"] = "Register your account";
 }
+@if (User.Identity.IsAuthenticated && User.IsInRole("USER"))
+{
+    <div class="row">
+        <div class="container">
+            <div class="row ">
+                <br /><br /><br /><br />
+                <div class="col-md-3"></div>
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h1 class="text-center text-dark mt-5 customFont" style="color: deeppink">Register Form</h1>
+                    <div class="card my-5">
+
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="col-md-12 alert alert-danger">
+                                <span><b>Sorry!</b> - @TempData["Error"]</span>
+                            </div>
+                        }
+
+                        <form asp-action="Register" class="card-body cardbody-color p-lg-5 customFont">
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <div class="text-center">
+                                <img src="/lib/242515766_267146348723973_8030943319972783254_n.jpg" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                                 width="200px" alt="profile">
+                            </div>
+
+
+                            <br />
+
+                            <div class="mb-3" style="margin-top: 5px;">
+                                <input type="text" asp-for="FullName" class="form-control customFont" id="Username" aria-describedby="emailHelp"
+                                   placeholder="Full Name">
+                                <span asp-validation-for="FullName"></span>
+                            </div>
+
+                            <div class="mb-3" style="margin-top: 5px;">
+                                <input type="text" asp-for="EmailAddress" class="form-control" id="Username" aria-describedby="emailHelp"
+                                   placeholder="Email address">
+                                <span asp-validation-for="EmailAddress"></span>
+                            </div>
+
+
+
+                            <div class="mb-3" style="margin-top: 5px;">
+                                <input type="password" asp-for="Password" class="form-control" id="password" placeholder="Password">
+                                <span asp-validation-for="Password"></span>
+
+                            </div>
+
+                            <div class="mb-3" style="margin-top: 5px;">
+                                <input type="password" asp-for="ConfirmPassword" class="form-control" id="password" placeholder="Password">
+                                <span asp-validation-for="ConfirmPassword"></span>
+
+                            </div>
+
+                            <br />
+                            <div class="text-center customFont">
+
+                                <button type="submit" id="" class="btn btn-outline-secondary LogIN ">Register</button>
+                                <a class="btn btn-outline-secondary customFont LogIN" asp-controller="Home" asp-action="Store">Cancel</a>
+
+                            </div>
+                            <br />
+
+
+                        </form>
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
+}
+
+@*Only admin can register new admin*@
+@if(User.Identity.IsAuthenticated && User.IsInRole("ADMIN"))
+{
+    
+
 
 <div class="row">
     <div class="container">
@@ -11,7 +97,7 @@
             <br /><br /><br /><br />
             <div class="col-md-3"></div>
             <div class="col-md-6 offset-md-3 text-center">
-                <h1 class="text-center text-dark mt-5 customFont" style="color: deeppink">Register Form</h1>
+                <h1 class="text-center text-dark mt-5 customFont" style="color: deeppink">Register Admin Form</h1>
                 <div class="card my-5">
 
                     @if (TempData["Error"] != null)
@@ -21,13 +107,13 @@
                         </div>
                     }
 
-                    <form asp-action="Register" class="card-body cardbody-color p-lg-5 customFont">
+                    <form asp-action="RegisterAdmin" class="card-body cardbody-color p-lg-5 customFont">
                         <div asp-validation-summary="ModelOnly"></div>
                         <div class="text-center">
                             <img src="/lib/242515766_267146348723973_8030943319972783254_n.jpg" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
                                  width="200px" alt="profile">
                         </div>
-                        
+
 
                         <br />
 
@@ -65,9 +151,16 @@
 
                         </div>
                         <br />
-                        
+
 
                     </form>
+
+
+
+                    @*Only admin can register new admin*@
+
+
+
                 </div>
 
             </div>
@@ -75,3 +168,4 @@
         </div>
     </div>
 </div>
+}
