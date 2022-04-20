@@ -2,6 +2,7 @@
 using pinkJB_core.Data.Cart;
 using pinkJB_core.Data.ViewModels;
 using pinkJB_core.Services;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace pinkJB_core.Controllers
@@ -20,8 +21,9 @@ namespace pinkJB_core.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            string userId = "";
-            var orders = await _ordersService.GetOrdersByUserIdAsync(userId);
+            string userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
+            string userRole = User.FindFirstValue(ClaimTypes.Role);
+            var orders = await _ordersService.GetOrdersByUserIdAndRoleAsync(userId, userRole);
             return View(orders);
 
         }
@@ -60,8 +62,8 @@ namespace pinkJB_core.Controllers
         public async Task<IActionResult> CompleteOrder()
         {
             var items=_shoppingCart.GetShoppingCartItems();
-            string userId = "";
-            string userEmailAddress = "";
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier); ;
+            string userEmailAddress = User.FindFirstValue(ClaimTypes.Email); 
             await _ordersService.StoreOrderAsync(items,userId,userEmailAddress);
             await _shoppingCart.ClearShoppingCartAsync();
             return View("OrderCompleted");

@@ -59,3 +59,17 @@ else
 
     </li>
 }
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("ADMIN"))
+{
+    <li style="color: pink; display: inline">
+                            <button class="btn btn-outline-success customFont" id="profile-btn" asp-controller="Account" asp-action="Login" style="margin-top: 15px; text-decoration: none; color: pink">
+                                
+                                 @Html.ActionLink("List all users", "Users", "Account")
+                                 <i class="bi bi-people"></i>
+                            </button>
+
+                    
+
+    </li>
+}

@@ -14,9 +14,13 @@ namespace pinkJB_core.Services
         {
             _context = context;
         }
-        public async Task<List<Order>> GetOrdersByUserIdAsync(string userId)
+        public async Task<List<Order>> GetOrdersByUserIdAndRoleAsync(string userId,string userRole)
         {
-            var orders=await _context.Orders.Include(n=>n.OrderItems).ThenInclude(n=>n.Product).Where(n=>n.userId ==userId).ToListAsync();
+            var orders = await _context.Orders.Include(n => n.OrderItems).ThenInclude(n => n.Product).Include(n => n.User).ToListAsync();
+            if (userRole!="ADMIN")
+            {
+                orders = orders.Where(n => n.userId == userId).ToList();
+            }
             return orders;
         }
 

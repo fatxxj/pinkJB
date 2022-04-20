@@ -8,7 +8,7 @@ namespace pinkJB_core.Services
     {
         //add orders to DB, get orders from DB
         Task StoreOrderAsync(List<ShoppingCartItem> items, string userId, string userEmailAddress);
-        Task<List<Order>> GetOrdersByUserIdAsync(string userId);
+        Task<List<Order>> GetOrdersByUserIdAndRoleAsync(string userId,string userRole); 
 
 
     }
