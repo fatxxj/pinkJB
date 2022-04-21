@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using pinkJB_core.Data;
 using pinkJB_core.Data.Static;
 using pinkJB_core.Data.ViewModels;
 using pinkJB_core.Models;
+using System.Net;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -15,11 +18,13 @@ namespace pinkJB_core.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly AppDbContext _context;
+        private readonly ILogger<AccountController> _logger;
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, AppDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _context = context;
+            
         }
 
         public async Task<IActionResult> Users()
@@ -84,7 +89,24 @@ namespace pinkJB_core.Controllers
             var newUserResponse = await _userManager.CreateAsync(newUser, registerVM.Password);
             if (newUserResponse.Succeeded)
             {
+                
+               
+
                 await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+                MailMessage mm = new MailMessage();
+                mm.Subject = "Account registered";
+                mm.Body = "You account is registered successfully! You can log in using your credentials. Thank you for being a part of us.  ";
+                mm.IsBodyHtml = false;
+                mm.From = new MailAddress("pink.jb10@gmail.com", "PinkJB admin");
+                mm.To.Add(new MailAddress(registerVM.EmailAddress, "Again fat"));
+                SmtpClient smtp = new SmtpClient();
+                smtp.Host = "smtp.gmail.com";
+                smtp.EnableSsl = true;
+                NetworkCredential NetworkCred = new NetworkCredential("pink.jb10@gmail.com", "Pinkjb@1234");
+                smtp.UseDefaultCredentials = false;
+                smtp.Credentials = NetworkCred;
+                smtp.Port = 587;
+                smtp.Send(mm);
 
             }
             return View("RegisterCompleted");
@@ -135,5 +157,27 @@ namespace pinkJB_core.Controllers
             return RedirectToAction("Store", "Home");
 
         }
+
+        /*
+        public IActionResult SendGmailSuccessfulRegistration()
+        {
+            MailMessage mm = new MailMessage();
+            mm.Subject = "Hello user";
+            mm.Body = "This is a test ";
+            mm.IsBodyHtml = false;
+            mm.From = new MailAddress("pink.jb10@gmail.com", "from Fat");
+            mm.To.Add(new MailAddress("halimifat@gmail.com", "Again fat"));
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.EnableSsl = true;
+            NetworkCredential NetworkCred = new NetworkCredential("pink.jb10@gmail.com", "Pinkjb@1234");
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = NetworkCred;
+            smtp.Port = 587;
+            smtp.Send(mm);
+            return RedirectToAction("Store", "Home");
+        }
+
+        */
     }
 }

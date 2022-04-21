@@ -580,3 +580,7 @@ C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\MailKit.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\MimeKit.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\NETCore.MailKit.dll

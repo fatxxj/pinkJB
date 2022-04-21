@@ -13,6 +13,8 @@ using Syncfusion.HtmlConverter;
 using Syncfusion.Pdf;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
+using System.Net.Mail;
+using System.Net;
 
 namespace pinkJB_core.Controllers
 {
@@ -43,6 +45,26 @@ namespace pinkJB_core.Controllers
             return View(details);
 
         }
+        
+        public IActionResult SendGmail()
+        {
+            MailMessage mm = new MailMessage();
+            mm.Subject = "Hello user";
+            mm.Body = "This is a test ";
+            mm.IsBodyHtml = false;
+            mm.From = new MailAddress("pink.jb10@gmail.com","from Fat");
+            mm.To.Add(new MailAddress("halimifat@gmail.com", "Again fat"));
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.EnableSsl = true;
+            NetworkCredential NetworkCred = new NetworkCredential("pink.jb10@gmail.com", "Pinkjb@1234");
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = NetworkCred;
+            smtp.Port = 587;
+            smtp.Send(mm);
+            return RedirectToAction("Store", "Home");
+        }
+        
 
         public async Task<IActionResult> Card(int id)
         {

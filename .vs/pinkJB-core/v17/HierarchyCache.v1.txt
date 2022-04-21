@@ -3,15 +3,63 @@ i:{00000000-0000-0000-0000-000000000000}:pinkJB-core.sln
 ++pinkJB-core
 i:{00000000-0000-0000-0000-000000000000}:pinkJB-core
 ++Connected Services 
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2265
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2287
 ++Dependencies
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2264
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2286
 ++Imports
-i:{c4894090-b31c-412d-a675-344ba282391f}:>1054
+i:{c4894090-b31c-412d-a675-344ba282391f}:>1065
 ++Properties
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\
 ++wwwroot
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\
+++css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\css\
+++Images
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\images\
+++js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\js\
+++lib
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\
+++bootstrap
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\
+++dist
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\
+++bootstrap.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++myCss.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\mycss.css
+++LICENSE
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\license
+++jquery
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\
+++jquery-validation
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\
+++242515766_267146348723973_8030943319972783254_n.jpg
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\242515766_267146348723973_8030943319972783254_n.jpg
+++facebook.png
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\facebook.png
+++favicon.ico
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\favicon.ico
+++instagram.png
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\instagram.png
+++telephone-call.png
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\telephone-call.png
 ++App_GlobalResources
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\app_globalresources\
 ++Base
@@ -37,8 +85,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\enums\
 ++Static
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\static\
-++UserRoles.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\static\userroles.cs
 ++ViewComponents
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewcomponents\
 ++ViewModels
@@ -47,6 +93,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\loginvm.cs
 ++NewProductVM.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\newproductvm.cs
+++RegisterVM.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\registervm.cs
 ++ShoppingCartVM.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewmodels\shoppingcartvm.cs
 ++AppDbContext.cs
@@ -85,6 +133,16 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\qtbinarieswindows\
 ++Services
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\
+++.editorconfig
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\.editorconfig
+++IOrdersService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iordersservice.cs
+++IProductsService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iproductsservice.cs
+++OrdersService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\ordersservice.cs
+++ProductService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\productservice.cs
 ++Utility
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\utility\
 ++Views
@@ -95,6 +153,10 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\account\
 ++Login.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\account\login.cshtml
+++Register.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\account\register.cshtml
+++RegisterCompleted.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\account\registercompleted.cshtml
 ++Home
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\home\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\
@@ -116,6 +178,10 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Orders
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\
+++OrderCompleted.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\ordercompleted.cshtml
+++ShoppingCart.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\shoppingcart.cshtml
 ++Shared
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\
@@ -124,6 +190,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\
 ++_CreateItem.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\_createitem.cshtml
+++_Identity.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\_identity.cshtml
 ++_Layout.cshtml
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\_layout.cshtml
 ++_ValidationScriptsPartial.cshtml
@@ -148,7 +216,7 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Startup.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\startup.cs
 ++SQL Server Express LocalDB (Local) (ConnectionStrings:pinkJB_coreContext)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2293
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2315
 ++Analyzers
 i:{c4894090-b31c-412d-a675-344ba282391f}:analyzers
 ++Frameworks
@@ -166,30 +234,32 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.json
 ++serviceDependencies.local.json.user
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.local.json.user
-++css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\css\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\
-++Images
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\images\
-++js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\js\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\
-++facebook.png
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\facebook.png
-++favicon.ico
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\favicon.ico
-++instagram.png
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\instagram.png
-++telephone-call.png
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\telephone-call.png
+++site.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\site.css
+++site.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\site.js
+++bootstrap.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++LICENSE.txt
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\license.txt
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\license.md
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\license.md
+++jquery.validate.unobtrusive.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 ++Content.resx
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\app_globalresources\content.resx
 ++Debug
@@ -205,6 +275,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\cart\shoppingcart.cs
 ++ProductCategory.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\enums\productcategory.cs
+++UserRoles.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\static\userroles.cs
 ++ShoppingCartSummary.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\data\viewcomponents\shoppingcartsummary.cs
 ++.github
@@ -232,9 +304,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++composer.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\composer.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\kartik-v-bootstrap-fileinput-ab06a9c\composer.json
-++LICENSE.md
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\license.md
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\license.md
 ++package.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\kartik-v-bootstrap-fileinput-ab06a9c\package.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\kartik-v-bootstrap-fileinput-ab06a9c\package.json
@@ -499,22 +568,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++zlib1.dll
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\lib\qtbinarieswindows\zlib1.dll
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\qtbinarieswindows\zlib1.dll
-++.editorconfig
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\.editorconfig
-++IOrdersService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iordersservice.cs
-++IProductsService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\iproductsservice.cs
-++OrdersService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\ordersservice.cs
-++ProductService.cs
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\productservice.cs
 ++TemplateGenerator.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\utility\templategenerator.cs
-++OrderCompleted.cshtml
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\ordercompleted.cshtml
-++ShoppingCart.cshtml
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\orders\shoppingcart.cshtml
 ++ShoppingCartSummary
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\shared\components\shoppingcartsummary\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\shoppingcartsummary\
@@ -544,29 +599,29 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 ++Microsoft.NETCore.App
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\microsoft.netcore.app
 ++DinkToPdf (1.0.8)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2287
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2309
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2286
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2308
 ++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.13)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2282
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2304
 ++Microsoft.EntityFrameworkCore (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2283
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2305
 ++Microsoft.EntityFrameworkCore.Design (5.0.14)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2285
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2307
 ++Microsoft.EntityFrameworkCore.SqlServer (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2284
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2306
 ++Microsoft.EntityFrameworkCore.SqlServer.Design (1.1.6)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2281
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2303
 ++Microsoft.EntityFrameworkCore.Tools (5.0.12)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2289
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2311
 ++Microsoft.EntityFrameworkCore.UnitOfWork (3.1.0)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2292
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2314
 ++Microsoft.Graph (4.22.0)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2288
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2310
 ++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2291
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2313
 ++Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core (20.1.0.48)
-i:{c4894090-b31c-412d-a675-344ba282391f}:>2290
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2312
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.props
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
@@ -585,20 +640,26 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
 ++serviceDependencies.local.json
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\properties\servicedependencies.local.json
-++site.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\css\site.css
-++site.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\js\site.js
-++bootstrap
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\
-++jquery
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\
-++jquery-validation
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\
-++242515766_267146348723973_8030943319972783254_n.jpg
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\242515766_267146348723973_8030943319972783254_n.jpg
+++bootstrap.min.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 ++net5.0
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\
@@ -840,17 +901,18 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
 ++Microsoft.NET.Sdk.Publish.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
-++dist
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\
-++LICENSE
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\license
-++LICENSE.txt
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\license.txt
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++jquery.validate.unobtrusive.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++bootstrap.bundle.js.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++jquery.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\
 ++de
@@ -1343,14 +1405,10 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
 ++Microsoft.NET.Sdk.DotNetCLITool.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
-++jquery.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.js
-++additional-methods.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\additional-methods.js
-++jquery.validate.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-++jquery.validate.unobtrusive.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.bundle.min.js.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++jquery.min.map
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.min.map
 ++Microsoft.CodeAnalysis.CSharp.resources.dll
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\cs\microsoft.codeanalysis.csharp.resources.dll
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\de\microsoft.codeanalysis.csharp.resources.dll
@@ -2034,22 +2092,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
 ++Microsoft.CodeAnalysis.NetAnalyzers.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
-++bootstrap.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap-grid.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-++bootstrap-reboot.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-++myCss.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\mycss.css
-++bootstrap.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-++jquery.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.min.js
-++additional-methods.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-++jquery.validate.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++native
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\native\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\native\
@@ -2069,26 +2111,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studi
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
 ++Microsoft.Common.CurrentVersion.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
-++bootstrap.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap.min.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-++bootstrap-grid.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-++bootstrap-grid.min.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-++bootstrap-reboot.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-++bootstrap-reboot.min.css
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-++bootstrap.bundle.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-++bootstrap.js.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-++bootstrap.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-++jquery.min.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\jquery\dist\jquery.min.map
 ++netcoreapp3.1
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\unix\lib\netcoreapp3.1\
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win\lib\netcoreapp3.1\
@@ -2106,6 +2128,10 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
 ++Login.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\account\login.cshtml.g.cs
+++Register.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\account\register.cshtml.g.cs
+++RegisterCompleted.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\account\registercompleted.cshtml.g.cs
 ++Contact.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\home\contact.cshtml.g.cs
 ++Create.cshtml.g.cs
@@ -2127,6 +2153,8 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\orders\shoppingcart.cshtml.g.cs
 ++_CreateItem.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_createitem.cshtml.g.cs
+++_Identity.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_identity.cshtml.g.cs
 ++_Layout.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\_layout.cshtml.g.cs
 ++_ValidationScriptsPartial.cshtml.g.cs
@@ -2181,18 +2209,6 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\netstand
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\syncfusion.htmltopdfconverter.qtwebkit.net.core.targets
 ++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\5.0.13\buildtransitive\net5.0\microsoft.aspnetcore.mvc.razor.runtimecompilation.targets
-++bootstrap.min.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-++bootstrap-grid.min.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-++bootstrap-reboot.min.css.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-++bootstrap.bundle.js.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-++bootstrap.bundle.min.js
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-++bootstrap.min.js.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 ++dotnet-aspnet-codegenerator-design.exe
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
@@ -2204,7 +2220,31 @@ i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studi
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\service fabric tools\microsoft.visualstudio.azure.fabric.serviceproject.targets
 ++Microsoft.Web.IISSupport.targets
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
-++bootstrap.bundle.min.js.map
-i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++Default.cshtml.g.cs
 i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\shared\components\shoppingcartsummary\default.cshtml.g.cs
+++Users.cshtml
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\views\account\users.cshtml
+++Users.cshtml.g.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\obj\debug\net5.0\razor\views\account\users.cshtml.g.cs
+++EmailSender.cs
+++IEmailSender.cs
+++MailRequest.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\models\mailrequest.cs
+++MailSettings.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\models\mailsettings.cs
+++MailKit (3.2.0)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2370
+++MimeKit (3.2.0)
+i:{c4894090-b31c-412d-a675-344ba282391f}:>2371
+++IMailService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\imailservice.cs
+++MailService.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\services\mailservice.cs
+++MailController.cs
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\controllers\mailcontroller.cs
+++MailKit.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\mailkit.dll
+++MimeKit.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\mimekit.dll
+++BouncyCastle.Crypto.dll
+i:{c4894090-b31c-412d-a675-344ba282391f}:c:\users\fatha\source\repos\pinkjb-core\pinkjb-core\bin\debug\net5.0\bouncycastle.crypto.dll

@@ -58,6 +58,11 @@ namespace pinkJB_core
             });
 
 
+
+        
+
+
+
             services
                 .AddControllersWithViews()
                 .AddRazorRuntimeCompilation();
