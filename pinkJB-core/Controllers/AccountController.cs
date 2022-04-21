@@ -89,10 +89,9 @@ namespace pinkJB_core.Controllers
             var newUserResponse = await _userManager.CreateAsync(newUser, registerVM.Password);
             if (newUserResponse.Succeeded)
             {
-                
-               
 
                 await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+
                 MailMessage mm = new MailMessage();
                 mm.Subject = "Account registered";
                 mm.Body = "You account is registered successfully! You can log in using your credentials. Thank you for being a part of us.  ";
