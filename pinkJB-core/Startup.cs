@@ -21,6 +21,7 @@ using System.Globalization;
 using DinkToPdf.Contracts;
 using DinkToPdf;
 using pinkJB_core.Models;
+using Microsoft.AspNetCore.Localization;
 
 namespace pinkJB_core
 {
@@ -56,9 +57,11 @@ namespace pinkJB_core
                 options.DefaultScheme=CookieAuthenticationDefaults.AuthenticationScheme;
 
             });
+            services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
 
-
+            
         
 
 
@@ -100,8 +103,8 @@ namespace pinkJB_core
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-            //Seed database
-             AppDbInitializer.Seed(app);
+              //Seed database
+            AppDbInitializer.Seed(app);
             //AppDbInitializer.SeedUsersAndRolesAsync(app).Wait();
         }
 

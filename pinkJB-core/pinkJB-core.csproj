@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>pinkJB_core</RootNamespace>
+    <OutputType>WinExe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +32,7 @@
 
   <ItemGroup>
     <Folder Include="Base\" />
+    <Folder Include="Resources\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
@@ -47,6 +49,18 @@
 
   <ItemGroup>
     <None Remove="C:\Users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\..\..\lib\QtBinariesLinux\libQt5Qml.so.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="libwkhtmltox.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libwkhtmltox.dylib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libwkhtmltox.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

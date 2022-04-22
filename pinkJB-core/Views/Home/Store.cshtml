@@ -17,7 +17,8 @@
 
     <br />
 
-<div class="row g-2">        
+<div class="row g-2">  
+    <div id='alrt' style="fontWeight = 'bold'"></div>
 
  @foreach (var item in Model)
     {
@@ -76,7 +77,7 @@
                                         <i class="bi bi-eye-fill"></i> Show Details
                                     </a>
                                     
-                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")"  style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@item.Id" >
+                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")" id="AddToCartAlert" style="font-size: 15px; color: deeppink" asp-controller="Orders" asp-action="AddToShoppingCart" asp-route-id="@item.Id" >
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     
@@ -105,5 +106,20 @@
     
  <br/>
 </div>
+
+@section Scripts{
+<script>
+
+    $("#AddToCartAlert").on("click",function(){
+          document.getElementById('alrt').innerHTML='<b>Please wait, Your download will start soon!!!</b>'; 
+    setTimeout(function() {document.getElementById('alrt').innerHTML='';},5000);
+    })
+
+
+
+</script>
+}
+
 @await Html.PartialAsync("_CreateItem", "Home")
         <br /><br />
+        
