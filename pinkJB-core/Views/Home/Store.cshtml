@@ -1,5 +1,5 @@
-﻿@using System.Globalization
-@using System;
+﻿@using System;
+@using System.Globalization
 
 @model IEnumerable<Product>
 @{
@@ -81,8 +81,8 @@
                                         <i class="bi bi-cart"></i> Add to card
                                     </a>
                                     
-                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")" style="font-size: 19px; color: deeppink; text-decoration: none;" >
-                                        @item.ProductPrice.ToString("c")
+                                    <a class="btn btn-outline-primary customFont float-right buttoniTeStore  @((item.amountLeft<=0) ? "disabled" : "")" style="font-size: 19px; color: deeppink; text-decoration: none;" asp-format="{0:C}" >
+                                        @item.ProductPrice.ToString("C", new CultureInfo("en-US"))
                                     </a>
 
 

@@ -1,4 +1,7 @@
-﻿@{
+﻿
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -11,7 +14,7 @@
     <div class="col-md-12"> 
         <br />
 
-        <h2 class=" text-center customFont" style="font-size: 35px">About Us</h2><br />
+        <h2 class=" text-center customFont" style="font-size: 35px">@localizer["About us"]</h2><br />
         <p class="text-justify customFont" style="font-weight: 500; font-size: 21px;">
             Pink JB is a pyjamas store, but the story is not it. Pink JB specializes in fancy pyjama sets, comfy loungewear, nightwear  making your morning feel so special.
             Pink JB specializes in custom made pyjamas where we offer custom embroidery based on your wishes.
@@ -27,9 +30,7 @@
     </div>
      
 </div>
-<div class="row">
-    <a class="btn btn-primary btn-lg customFont"   asp-action="SendGmail"> Send Gmail <i class="bi bi-shop"></i></a>
-</div>
+
 <div class="row">
     <div class="col-md-12 text-center align-content-center">
         <a class="btn btn-primary btn-lg customFont"   asp-action="Store"> Go to store &nbsp; <i class="bi bi-shop"></i></a>

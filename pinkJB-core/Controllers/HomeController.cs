@@ -15,6 +15,7 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using System.Net.Mail;
 using System.Net;
+using Microsoft.AspNetCore.Mvc.Localization;
 
 namespace pinkJB_core.Controllers
 {
@@ -24,11 +25,13 @@ namespace pinkJB_core.Controllers
 
     public class HomeController : Controller
     {
+        private readonly IHtmlLocalizer<HomeController> _localizer;
         private readonly IProductsService _service;
 
-        public HomeController(IProductsService service)
+        public HomeController(IProductsService service, IHtmlLocalizer<HomeController> localizer)
         {
             _service = service;
+            _localizer = localizer;
         }
 
        
@@ -37,6 +40,8 @@ namespace pinkJB_core.Controllers
 
         public IActionResult Index()
         {
+            var test = _localizer["About us"];
+            ViewData["About us"] = test ;
             return View();
         }
         public async Task< IActionResult> Details(int id)

@@ -32,7 +32,6 @@
 
   <ItemGroup>
     <Folder Include="Base\" />
-    <Folder Include="Resources\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
@@ -44,11 +43,34 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Assets\bootstrap.css" />
+    <None Remove="Assets\bootstrap.css.map" />
+    <None Remove="Assets\bootstrap.min.css" />
+    <None Remove="Assets\bootstrap.min.css.map" />
     <None Remove="C:\Users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\..\..\lib\QtBinariesLinux\libQt5Qml.so.5" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="C:\Users\fatha\.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\20.1.0.48\build\netstandard20\..\..\lib\QtBinariesLinux\libQt5Qml.so.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\bootstrap.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Assets\bootstrap.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Assets\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Assets\bootstrap.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

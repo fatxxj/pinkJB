@@ -585,3 +585,16 @@ C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\NETCore.Mai
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\libwkhtmltox.dll
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\libwkhtmltox.dylib
 C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\libwkhtmltox.so
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\en\pinkJB-core.resources.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.Home.index.en.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\en\pinkJB-core.resources.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\bin\Debug\net5.0\mk\pinkJB-core.resources.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.Home.index.mk.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\mk\pinkJB-core.resources.dll
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.index.en.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.index.mk.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.index.en.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.index.mk.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.sq.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.Home.sq.resources
+C:\Users\fatha\Source\Repos\pinkJB-core\pinkJB-core\obj\Debug\net5.0\pinkJB_core.Resources.Views.sq.resources

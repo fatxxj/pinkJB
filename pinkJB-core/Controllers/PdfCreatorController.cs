@@ -25,7 +25,7 @@ namespace pinkJB_core.Controllers
                 PaperSize = PaperKind.A4,
                 Margins = new MarginSettings { Top = 10 },
                 DocumentTitle = "PDF Report",
-                Out = @"C:\Users\fatha\Desktop\Generated.pdf"  //USE THIS PROPERTY TO SAVE PDF TO A PROVIDED LOCATION
+                Out = @"C:\Users\fatha\Desktop\Generated1.pdf"  //USE THIS PROPERTY TO SAVE PDF TO A PROVIDED LOCATION
             };
 
             var objectSettings = new ObjectSettings

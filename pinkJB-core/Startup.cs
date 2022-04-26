@@ -59,10 +59,15 @@ namespace pinkJB_core
             });
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
-            services.AddLocalization(options => options.ResourcesPath = "Resources");
 
-            
-        
+
+            services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = "Resources";
+            });
+            services.AddMvc().AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
+           
 
 
 
@@ -91,11 +96,20 @@ namespace pinkJB_core
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseRequestLocalization();
+        //    app.UseRequestLocalizationCookies();
+
             app.UseRouting();
             app.UseSession();
             //auth and aur
             app.UseAuthentication();
             app.UseAuthorization();
+
+
+            var supportedCultures = new[] { "en", "sq", "mk" };
+            var localisationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
+
+            app.UseRequestLocalization(localisationOptions);
 
             app.UseEndpoints(endpoints =>
             {
