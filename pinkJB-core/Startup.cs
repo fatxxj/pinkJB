@@ -65,7 +65,7 @@ namespace pinkJB_core
             {
                 opt.ResourcesPath = "Resources";
             });
-            services.AddMvc().AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+            services.AddControllersWithViews().AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
            
 
@@ -106,10 +106,21 @@ namespace pinkJB_core
             app.UseAuthorization();
 
 
-            var supportedCultures = new[] { "en", "sq", "mk" };
-            var localisationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
+            var supportedCultures = new[] { 
+                new CultureInfo("en-US"),
+                new CultureInfo("sq-AL"),
+                new CultureInfo("mk-MK")
+                };
 
-            app.UseRequestLocalization(localisationOptions);
+            //https://www.youtube.com/watch?v=IaNTZ1eHdRk  min 9:24
+            // var localisationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
+
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
 
             app.UseEndpoints(endpoints =>
             {

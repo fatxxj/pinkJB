@@ -326,14 +326,6 @@
         "runtime": {
           "pinkJB-core.dll": {}
         },
-        "resources": {
-          "en/pinkJB-core.resources.dll": {
-            "locale": "en"
-          },
-          "mk/pinkJB-core.resources.dll": {
-            "locale": "mk"
-          }
-        },
         "compile": {
           "pinkJB-core.dll": {}
         }
