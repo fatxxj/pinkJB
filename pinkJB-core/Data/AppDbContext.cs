@@ -11,7 +11,7 @@ namespace pinkJB_core.Data
 
         }
 
-        public DbSet<Product> Products { get; set; } //model name
+        public DbSet<Product> Products { get; set; } //model namee
 
         //Order table
         public DbSet<Order> Orders { get; set; }
