@@ -221,7 +221,7 @@ namespace pinkJB_core.Controllers
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.gmail.com";
             smtp.EnableSsl = true;
-            NetworkCredential NetworkCred = new NetworkCredential("pink.jb10@gmail.com", "Pinkjb@1234");
+            NetworkCredential NetworkCred = new NetworkCredential("<your email here>,<your email password here>"); // the email from where emails are sent
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = NetworkCred;
             smtp.Port = 587;
